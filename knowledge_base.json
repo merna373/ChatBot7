@@ -1,0 +1,3444 @@
+{
+  "version": "4.0",
+  "project": "Kemet – Discover Egypt Through Conversation",
+
+  "supported_languages": [
+    "ar",
+    "en",
+    "ru",
+    "de"
+  ],
+
+  "categories": {
+    "places": {
+      "name": {
+        "ar": "الأماكن السياحية",
+        "en": "Tourist Places",
+        "ru": "Туристические места",
+        "de": "Sehenswürdigkeiten"
+      },
+      "subcategories": [
+        "ancient_egypt",
+        "islamic_cairo",
+        "coptic_egypt",
+        "museums",
+        "alexandria",
+        "luxor",
+        "aswan",
+        "red_sea",
+        "sinai",
+        "deserts",
+        "oases"
+      ]
+    },
+
+    "shopping": {
+      "name": {
+        "ar": "التسوق",
+        "en": "Shopping",
+        "ru": "Шопинг",
+        "de": "Einkaufen"
+      },
+      "subcategories": [
+        "souvenirs",
+        "markets",
+        "traditional_crafts",
+        "papyrus",
+        "alabaster",
+        "jewelry",
+        "spices",
+        "perfumes",
+        "textiles"
+      ]
+    },
+
+    "food": {
+      "name": {
+        "ar": "الأكل والمشروبات",
+        "en": "Food & Drinks",
+        "ru": "Еда и напитки",
+        "de": "Essen & Getränke"
+      },
+      "subcategories": [
+        "koshary",
+        "ful",
+        "taameya",
+        "molokhia",
+        "feteer",
+        "hawawshi",
+        "mahshi",
+        "desserts",
+        "drinks"
+      ]
+    },
+
+    "transport": {
+      "name": {
+        "ar": "المواصلات",
+        "en": "Transportation",
+        "ru": "Транспорт",
+        "de": "Transport"
+      },
+      "subcategories": [
+        "taxi",
+        "metro",
+        "train",
+        "domestic_flights",
+        "nile_cruises",
+        "general_guidance"
+      ]
+    },
+
+    "tickets": {
+      "name": {
+        "ar": "التذاكر",
+        "en": "Tickets",
+        "ru": "Билеты",
+        "de": "Tickets"
+      },
+      "subcategories": [
+        "how_to_buy",
+        "online_tickets",
+        "ticket_policy",
+        "current_prices"
+      ]
+    }
+  },
+
+  "places": [
+
+    {
+      "id": "giza_pyramids",
+      "subcategory": "ancient_egypt",
+
+      "name": {
+        "ar": "أهرامات الجيزة",
+        "en": "Giza Pyramids",
+        "ru": "Пирамиды Гизы",
+        "de": "Pyramiden von Gizeh"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هي أهرامات الجيزة؟",
+          "أين توجد أهرامات الجيزة؟",
+          "ما أهمية أهرامات الجيزة؟",
+          "ماذا يمكنني أن أرى في أهرامات الجيزة؟"
+        ],
+        "en": [
+          "What are the Giza Pyramids?",
+          "Where are the Giza Pyramids?",
+          "Why are the Giza Pyramids important?",
+          "What can I see at the Giza Pyramids?"
+        ],
+        "ru": [
+          "Что такое пирамиды Гизы?",
+          "Где находятся пирамиды Гизы?",
+          "Почему пирамиды Гизы важны?",
+          "Что можно увидеть у пирамид Гизы?"
+        ],
+        "de": [
+          "Was sind die Pyramiden von Gizeh?",
+          "Wo befinden sich die Pyramiden von Gizeh?",
+          "Warum sind die Pyramiden von Gizeh wichtig?",
+          "Was kann man bei den Pyramiden von Gizeh sehen?"
+        ]
+      },
+
+      "keywords": [
+        "giza",
+        "pyramids",
+        "pyramid",
+        "khufu",
+        "khafre",
+        "menkaure",
+        "أهرامات",
+        "الجيزة",
+        "pyramide",
+        "pyramiden"
+      ],
+
+      "answer": {
+        "ar": "أهرامات الجيزة من أشهر معالم مصر القديمة، وتشمل هرم خوفو وهرم خفرع وهرم منقرع. تقع في منطقة الجيزة بالقرب من القاهرة.",
+        "en": "The Giza Pyramids are among the most famous monuments of ancient Egypt. The complex includes the pyramids of Khufu, Khafre, and Menkaure. They are located in Giza near Cairo.",
+        "ru": "Пирамиды Гизы являются одними из самых известных памятников Древнего Египта. Комплекс включает пирамиды Хуфу, Хафры и Менкаура. Они находятся в Гизе недалеко от Каира.",
+        "de": "Die Pyramiden von Gizeh gehören zu den bekanntesten Monumenten des Alten Ägypten. Der Komplex umfasst die Pyramiden von Cheops, Chephren und Mykerinos. Sie befinden sich in Gizeh bei Kairo."
+      }
+    },
+
+    {
+      "id": "great_sphinx",
+      "subcategory": "ancient_egypt",
+
+      "name": {
+        "ar": "أبو الهول",
+        "en": "Great Sphinx",
+        "ru": "Большой Сфинкс",
+        "de": "Große Sphinx"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو أبو الهول؟",
+          "أين يوجد أبو الهول؟",
+          "ما أهمية أبو الهول؟"
+        ],
+        "en": [
+          "What is the Great Sphinx?",
+          "Where is the Great Sphinx?",
+          "Why is the Great Sphinx important?"
+        ],
+        "ru": [
+          "Что такое Большой Сфинкс?",
+          "Где находится Большой Сфинкс?",
+          "Почему Большой Сфинкс важен?"
+        ],
+        "de": [
+          "Was ist die Große Sphinx?",
+          "Wo befindet sich die Große Sphinx?",
+          "Warum ist die Große Sphinx wichtig?"
+        ]
+      },
+
+      "keywords": [
+        "sphinx",
+        "great sphinx",
+        "abu hol",
+        "أبو الهول",
+        "السفينكس",
+        "сфинкс",
+        "sphinx von gizeh"
+      ],
+
+      "answer": {
+        "ar": "أبو الهول تمثال ضخم بجسم أسد ورأس بشري، ويقع بالقرب من أهرامات الجيزة.",
+        "en": "The Great Sphinx is a monumental statue with the body of a lion and a human head. It is located near the Giza Pyramids.",
+        "ru": "Большой Сфинкс — монументальная статуя с телом льва и человеческой головой. Он находится рядом с пирамидами Гизы.",
+        "de": "Die Große Sphinx ist eine monumentale Statue mit dem Körper eines Löwen und einem menschlichen Kopf. Sie befindet sich in der Nähe der Pyramiden von Gizeh."
+      }
+    },
+
+    {
+      "id": "saqqara",
+      "subcategory": "ancient_egypt",
+
+      "name": {
+        "ar": "سقارة",
+        "en": "Saqqara",
+        "ru": "Саккара",
+        "de": "Sakkara"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هي سقارة؟",
+          "ماذا يوجد في سقارة؟",
+          "هل سقارة من الأماكن الأثرية المهمة؟"
+        ],
+        "en": [
+          "What is Saqqara?",
+          "What can I see in Saqqara?",
+          "Is Saqqara an important archaeological site?"
+        ],
+        "ru": [
+          "Что такое Саккара?",
+          "Что можно увидеть в Саккаре?",
+          "Является ли Саккара важным археологическим местом?"
+        ],
+        "de": [
+          "Was ist Sakkara?",
+          "Was kann man in Sakkara sehen?",
+          "Ist Sakkara eine wichtige archäologische Stätte?"
+        ]
+      },
+
+      "keywords": [
+        "saqqara",
+        "step pyramid",
+        "djoser",
+        "سقارة",
+        "هرم زوسر",
+        "саккара",
+        "djoser pyramide"
+      ],
+
+      "answer": {
+        "ar": "سقارة منطقة أثرية مهمة في مصر وتضم هرم زوسر المدرج ومجموعة من المقابر والآثار القديمة.",
+        "en": "Saqqara is an important archaeological area in Egypt. It includes the Step Pyramid of Djoser and many ancient tombs and monuments.",
+        "ru": "Саккара — важный археологический район Египта. Здесь находятся Ступенчатая пирамида Джосера и множество древних гробниц и памятников.",
+        "de": "Sakkara ist ein bedeutendes archäologisches Gebiet in Ägypten. Dort befinden sich die Stufenpyramide des Djoser sowie zahlreiche antike Gräber und Monumente."
+      }
+    },
+
+    {
+      "id": "dahshur",
+      "subcategory": "ancient_egypt",
+
+      "name": {
+        "ar": "دهشور",
+        "en": "Dahshur",
+        "ru": "Дахшур",
+        "de": "Dahschur"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هي دهشور؟",
+          "ماذا يوجد في دهشور؟",
+          "ما هي أشهر أهرامات دهشور؟"
+        ],
+        "en": [
+          "What is Dahshur?",
+          "What can I see in Dahshur?",
+          "What are the famous pyramids of Dahshur?"
+        ],
+        "ru": [
+          "Что такое Дахшур?",
+          "Что можно увидеть в Дахшуре?",
+          "Какие известные пирамиды находятся в Дахшуре?"
+        ],
+        "de": [
+          "Was ist Dahschur?",
+          "Was kann man in Dahschur sehen?",
+          "Welche berühmten Pyramiden gibt es in Dahschur?"
+        ]
+      },
+
+      "keywords": [
+        "dahshur",
+        "bent pyramid",
+        "red pyramid",
+        "دهشور",
+        "الهرم المنحني",
+        "الهرم الأحمر",
+        "дахшур"
+      ],
+
+      "answer": {
+        "ar": "دهشور منطقة أثرية جنوب القاهرة، وتشتهر بالهرم المنحني والهرم الأحمر.",
+        "en": "Dahshur is an archaeological area south of Cairo. It is known for the Bent Pyramid and the Red Pyramid.",
+        "ru": "Дахшур — археологический район к югу от Каира. Он известен Ломаной пирамидой и Красной пирамидой.",
+        "de": "Dahschur ist ein archäologisches Gebiet südlich von Kairo. Es ist für die Knickpyramide und die Rote Pyramide bekannt."
+      }
+    },
+
+    {
+      "id": "egyptian_museum",
+      "subcategory": "museums",
+
+      "name": {
+        "ar": "المتحف المصري",
+        "en": "Egyptian Museum",
+        "ru": "Египетский музей",
+        "de": "Ägyptisches Museum"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو المتحف المصري؟",
+          "أين يوجد المتحف المصري؟",
+          "ماذا يوجد في المتحف المصري؟"
+        ],
+        "en": [
+          "What is the Egyptian Museum?",
+          "Where is the Egyptian Museum?",
+          "What can I see in the Egyptian Museum?"
+        ],
+        "ru": [
+          "Что такое Египетский музей?",
+          "Где находится Египетский музей?",
+          "Что можно увидеть в Египетском музее?"
+        ],
+        "de": [
+          "Was ist das Ägyptische Museum?",
+          "Wo befindet sich das Ägyptische Museum?",
+          "Was kann man im Ägyptischen Museum sehen?"
+        ]
+      },
+
+      "keywords": [
+        "egyptian museum",
+        "museum",
+        "cairo museum",
+        "المتحف المصري",
+        "المتحف",
+        "египетский музей",
+        "ägyptisches museum"
+      ],
+
+      "answer": {
+        "ar": "المتحف المصري في القاهرة يضم مجموعة كبيرة من آثار الحضارة المصرية القديمة.",
+        "en": "The Egyptian Museum in Cairo houses a large collection of artifacts from ancient Egyptian civilization.",
+        "ru": "Египетский музей в Каире хранит большую коллекцию артефактов древнеегипетской цивилизации.",
+        "de": "Das Ägyptische Museum in Kairo beherbergt eine große Sammlung von Artefakten aus der altägyptischen Zivilisation."
+      }
+    },
+
+    {
+      "id": "grand_egyptian_museum",
+      "subcategory": "museums",
+
+      "name": {
+        "ar": "المتحف المصري الكبير",
+        "en": "Grand Egyptian Museum",
+        "ru": "Большой Египетский музей",
+        "de": "Grand Egyptian Museum"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو المتحف المصري الكبير؟",
+          "أين يوجد المتحف المصري الكبير؟",
+          "ماذا يوجد في المتحف المصري الكبير؟"
+        ],
+        "en": [
+          "What is the Grand Egyptian Museum?",
+          "Where is the Grand Egyptian Museum?",
+          "What can I see at the Grand Egyptian Museum?"
+        ],
+        "ru": [
+          "Что такое Большой Египетский музей?",
+          "Где находится Большой Египетский музей?",
+          "Что можно увидеть в Большом Египетском музее?"
+        ],
+        "de": [
+          "Was ist das Grand Egyptian Museum?",
+          "Wo befindet sich das Grand Egyptian Museum?",
+          "Was kann man im Grand Egyptian Museum sehen?"
+        ]
+      },
+
+      "keywords": [
+        "gem",
+        "grand egyptian museum",
+        "grand museum",
+        "المتحف المصري الكبير",
+        "GEM",
+        "большой египетский музей"
+      ],
+
+      "answer": {
+        "ar": "المتحف المصري الكبير هو متحف مخصص للحضارة المصرية القديمة ويقع بالقرب من منطقة أهرامات الجيزة.",
+        "en": "The Grand Egyptian Museum is a museum dedicated to ancient Egyptian civilization and is located near the Giza Pyramids.",
+        "ru": "Большой Египетский музей посвящён древнеегипетской цивилизации и находится рядом с пирамидами Гизы.",
+        "de": "Das Grand Egyptian Museum ist ein Museum, das der altägyptischen Zivilisation gewidmet ist und sich in der Nähe der Pyramiden von Gizeh befindet."
+      }
+    },
+
+    {
+      "id": "nmec",
+      "subcategory": "museums",
+
+      "name": {
+        "ar": "المتحف القومي للحضارة المصرية",
+        "en": "National Museum of Egyptian Civilization",
+        "ru": "Национальный музей египетской цивилизации",
+        "de": "Nationalmuseum der ägyptischen Zivilisation"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو المتحف القومي للحضارة المصرية؟",
+          "ماذا يوجد في متحف الحضارة؟",
+          "أين يوجد متحف الحضارة المصرية؟"
+        ],
+        "en": [
+          "What is the National Museum of Egyptian Civilization?",
+          "What can I see at NMEC?",
+          "Where is the National Museum of Egyptian Civilization?"
+        ],
+        "ru": [
+          "Что такое Национальный музей египетской цивилизации?",
+          "Что можно увидеть в NMEC?",
+          "Где находится Национальный музей египетской цивилизации?"
+        ],
+        "de": [
+          "Was ist das Nationalmuseum der ägyptischen Zivilisation?",
+          "Was kann man im NMEC sehen?",
+          "Wo befindet sich das Nationalmuseum der ägyptischen Zivilisation?"
+        ]
+      },
+
+      "keywords": [
+        "nmec",
+        "national museum",
+        "museum of civilization",
+        "متحف الحضارة",
+        "المتحف القومي للحضارة المصرية",
+        "музей цивилизации"
+      ],
+
+      "answer": {
+        "ar": "المتحف القومي للحضارة المصرية يعرض جوانب مختلفة من الحضارة المصرية عبر العصور.",
+        "en": "The National Museum of Egyptian Civilization presents different aspects of Egyptian civilization across the ages.",
+        "ru": "Национальный музей египетской цивилизации представляет различные аспекты египетской цивилизации разных эпох.",
+        "de": "Das Nationalmuseum der ägyptischen Zivilisation präsentiert verschiedene Aspekte der ägyptischen Zivilisation aus unterschiedlichen Epochen."
+      }
+    },
+
+    {
+      "id": "karnak_temple",
+      "subcategory": "luxor",
+
+      "name": {
+        "ar": "معبد الكرنك",
+        "en": "Karnak Temple",
+        "ru": "Карнакский храм",
+        "de": "Karnak-Tempel"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو معبد الكرنك؟",
+          "أين يوجد معبد الكرنك؟",
+          "ماذا يمكن أن أرى في الكرنك؟"
+        ],
+        "en": [
+          "What is Karnak Temple?",
+          "Where is Karnak Temple?",
+          "What can I see at Karnak Temple?"
+        ],
+        "ru": [
+          "Что такое Карнакский храм?",
+          "Где находится Карнакский храм?",
+          "Что можно увидеть в Карнакском храме?"
+        ],
+        "de": [
+          "Was ist der Karnak-Tempel?",
+          "Wo befindet sich der Karnak-Tempel?",
+          "Was kann man im Karnak-Tempel sehen?"
+        ]
+      },
+
+      "keywords": [
+        "karnak",
+        "karnak temple",
+        "luxor",
+        "الكرنك",
+        "معبد الكرنك",
+        "карнак",
+        "karnak tempel"
+      ],
+
+      "answer": {
+        "ar": "معبد الكرنك مجمع معابد أثري كبير في مدينة الأقصر، ويعد من أهم المواقع الأثرية في مصر القديمة.",
+        "en": "Karnak Temple is a large ancient temple complex in Luxor and one of the important archaeological sites of ancient Egypt.",
+        "ru": "Карнакский храм — большой древний храмовый комплекс в Луксоре и один из важных археологических памятников Древнего Египта.",
+        "de": "Der Karnak-Tempel ist ein großer antiker Tempelkomplex in Luxor und eine der bedeutenden archäologischen Stätten des Alten Ägypten."
+      }
+    },
+
+    {
+      "id": "luxor_temple",
+      "subcategory": "luxor",
+
+      "name": {
+        "ar": "معبد الأقصر",
+        "en": "Luxor Temple",
+        "ru": "Луксорский храм",
+        "de": "Luxor-Tempel"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو معبد الأقصر؟",
+          "أين يوجد معبد الأقصر؟",
+          "ماذا يوجد في معبد الأقصر؟"
+        ],
+        "en": [
+          "What is Luxor Temple?",
+          "Where is Luxor Temple?",
+          "What can I see at Luxor Temple?"
+        ],
+        "ru": [
+          "Что такое Луксорский храм?",
+          "Где находится Луксорский храм?",
+          "Что можно увидеть в Луксорском храме?"
+        ],
+        "de": [
+          "Was ist der Luxor-Tempel?",
+          "Wo befindet sich der Luxor-Tempel?",
+          "Was kann man im Luxor-Tempel sehen?"
+        ]
+      },
+
+      "keywords": [
+        "luxor temple",
+        "luxor",
+        "معبد الأقصر",
+        "الأقصر",
+        "луксорский храм",
+        "luxor tempel"
+      ],
+
+      "answer": {
+        "ar": "معبد الأقصر معلم أثري مهم يقع في مدينة الأقصر على الضفة الشرقية لنهر النيل.",
+        "en": "Luxor Temple is an important ancient monument located in Luxor on the east bank of the Nile.",
+        "ru": "Луксорский храм — важный древний памятник, расположенный в Луксоре на восточном берегу Нила.",
+        "de": "Der Luxor-Tempel ist ein bedeutendes antikes Monument in Luxor am Ostufer des Nils."
+      }
+    },
+
+    {
+      "id": "valley_of_kings",
+      "subcategory": "luxor",
+
+      "name": {
+        "ar": "وادي الملوك",
+        "en": "Valley of the Kings",
+        "ru": "Долина царей",
+        "de": "Tal der Könige"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو وادي الملوك؟",
+          "أين يوجد وادي الملوك؟",
+          "لماذا وادي الملوك مهم؟"
+        ],
+        "en": [
+          "What is the Valley of the Kings?",
+          "Where is the Valley of the Kings?",
+          "Why is the Valley of the Kings important?"
+        ],
+        "ru": [
+          "Что такое Долина царей?",
+          "Где находится Долина царей?",
+          "Почему Долина царей важна?"
+        ],
+        "de": [
+          "Was ist das Tal der Könige?",
+          "Wo befindet sich das Tal der Könige?",
+          "Warum ist das Tal der Könige wichtig?"
+        ]
+      },
+
+      "keywords": [
+        "valley of kings",
+        "kings valley",
+        "luxor tombs",
+        "وادي الملوك",
+        "مقابر الأقصر",
+        "долина царей",
+        "tal der könige"
+      ],
+
+      "answer": {
+        "ar": "وادي الملوك منطقة أثرية في الأقصر تضم عددًا كبيرًا من المقابر الملكية القديمة.",
+        "en": "The Valley of the Kings is an archaeological area in Luxor containing many ancient royal tombs.",
+        "ru": "Долина царей — археологический район в Луксоре, где находятся многочисленные древние царские гробницы.",
+        "de": "Das Tal der Könige ist ein archäologisches Gebiet in Luxor mit zahlreichen antiken Königsgräbern."
+      }
+    },
+
+    {
+      "id": "abu_simbel",
+      "subcategory": "aswan",
+
+      "name": {
+        "ar": "أبو سمبل",
+        "en": "Abu Simbel Temples",
+        "ru": "Храмы Абу-Симбела",
+        "de": "Tempel von Abu Simbel"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هي معابد أبو سمبل؟",
+          "أين توجد معابد أبو سمبل؟",
+          "لماذا أبو سمبل مشهور؟"
+        ],
+        "en": [
+          "What are the Abu Simbel Temples?",
+          "Where are the Abu Simbel Temples?",
+          "Why is Abu Simbel famous?"
+        ],
+        "ru": [
+          "Что такое храмы Абу-Симбела?",
+          "Где находятся храмы Абу-Симбела?",
+          "Почему Абу-Симбел известен?"
+        ],
+        "de": [
+          "Was sind die Tempel von Abu Simbel?",
+          "Wo befinden sich die Tempel von Abu Simbel?",
+          "Warum ist Abu Simbel berühmt?"
+        ]
+      },
+
+      "keywords": [
+        "abu simbel",
+        "abu simbel temples",
+        "أبو سمبل",
+        "معابد أبو سمبل",
+        "абу-симбел",
+        "abu simbel tempel"
+      ],
+
+      "answer": {
+        "ar": "أبو سمبل يضم معبدين صخريين شهيرين في جنوب مصر، ويرتبطان بعصر الملك رمسيس الثاني.",
+        "en": "Abu Simbel contains two famous rock-cut temples in southern Egypt associated with the reign of Ramesses II.",
+        "ru": "Абу-Симбел включает два известных высеченных в скале храма на юге Египта, связанных с правлением Рамсеса II.",
+        "de": "Abu Simbel umfasst zwei berühmte Felsentempel im Süden Ägyptens, die mit der Herrschaft von Ramses II. verbunden sind."
+      }
+    }
+
+  ],
+
+  "shopping": [
+
+    {
+      "id": "souvenirs_egypt",
+      "subcategory": "souvenirs",
+
+      "name": {
+        "ar": "الهدايا التذكارية",
+        "en": "Souvenirs",
+        "ru": "Сувениры",
+        "de": "Souvenirs"
+      },
+
+      "questions": {
+        "ar": [
+          "أين أشتري الهدايا التذكارية في مصر؟",
+          "ما أشهر أماكن شراء الهدايا التذكارية في مصر؟",
+          "أين يمكنني شراء تذكارات مصرية؟",
+          "ما أفضل أماكن التسوق للسياح في مصر؟"
+        ],
+        "en": [
+          "Where can I buy souvenirs in Egypt?",
+          "What are the most famous places to buy souvenirs in Egypt?",
+          "Where can I buy Egyptian souvenirs?",
+          "What shopping places are useful for tourists in Egypt?"
+        ],
+        "ru": [
+          "Где можно купить сувениры в Египте?",
+          "Какие места в Египте известны покупкой сувениров?",
+          "Где купить египетские сувениры?",
+          "Где туристам можно делать покупки в Египте?"
+        ],
+        "de": [
+          "Wo kann ich in Ägypten Souvenirs kaufen?",
+          "Welche Orte in Ägypten sind für Souvenirs bekannt?",
+          "Wo kann ich ägyptische Souvenirs kaufen?",
+          "Wo können Touristen in Ägypten einkaufen?"
+        ]
+      },
+
+      "keywords": [
+        "souvenir",
+        "souvenirs",
+        "gifts",
+        "shopping",
+        "هدايا",
+        "هدايا تذكارية",
+        "تذكارات",
+        "تسوق",
+        "сувениры",
+        "подарки",
+        "souvenirs kaufen"
+      ],
+
+      "answer": {
+        "ar": "يمكن للسائح البحث عن الهدايا والتذكارات في الأسواق والمناطق التجارية السياحية المعروفة. من الأمثلة سوق خان الخليلي في القاهرة، وسوق الأقصر في الأقصر. تتوفر منتجات مثل المشغولات اليدوية والتوابل والمجوهرات والمنسوجات حسب المكان.",
+        "en": "Tourists can look for souvenirs in well-known markets and tourist shopping areas. Examples include Khan El-Khalili in Cairo and Luxor Market in Luxor. Depending on the location, visitors can find traditional crafts, spices, jewelry, and textiles.",
+        "ru": "Туристы могут искать сувениры на известных рынках и в туристических торговых районах. Например, в Хан-эль-Халили в Каире и на рынке Луксора. В зависимости от места можно найти изделия ручной работы, специи, украшения и текстиль.",
+        "de": "Touristen können Souvenirs auf bekannten Märkten und in touristischen Einkaufsvierteln kaufen. Beispiele sind Khan El-Khalili in Kairo und der Luxor-Markt in Luxor. Je nach Ort gibt es Kunsthandwerk, Gewürze, Schmuck und Textilien."
+      },
+
+      "linked_places": [
+        "khan_el_khalili",
+        "luxor_market"
+      ]
+    },
+
+    {
+      "id": "markets",
+      "subcategory": "markets",
+
+      "name": {
+        "ar": "الأسواق",
+        "en": "Markets",
+        "ru": "Рынки",
+        "de": "Märkte"
+      },
+
+      "questions": {
+        "ar": [
+          "ما أشهر الأسواق في مصر للسياح؟",
+          "أين توجد الأسواق التقليدية؟",
+          "أين يمكنني التسوق في القاهرة؟"
+        ],
+        "en": [
+          "What are famous markets in Egypt for tourists?",
+          "Where can I find traditional markets?",
+          "Where can I shop in Cairo?"
+        ],
+        "ru": [
+          "Какие рынки Египта известны среди туристов?",
+          "Где находятся традиционные рынки?",
+          "Где можно делать покупки в Каире?"
+        ],
+        "de": [
+          "Welche Märkte in Ägypten sind bei Touristen bekannt?",
+          "Wo gibt es traditionelle Märkte?",
+          "Wo kann ich in Kairo einkaufen?"
+        ]
+      },
+
+      "keywords": [
+        "markets",
+        "traditional markets",
+        "khan el khalili",
+        "markets cairo",
+        "الأسواق",
+        "الأسواق الشعبية",
+        "خان الخليلي",
+        "рынки",
+        "märkte"
+      ],
+
+      "answer": {
+        "ar": "من الأسواق المعروفة للسياح خان الخليلي في القاهرة، كما توجد أسواق سياحية معروفة في مدن أخرى مثل الأقصر وشرم الشيخ.",
+        "en": "Khan El-Khalili in Cairo is one of the well-known markets for tourists. Other tourist markets can also be found in cities such as Luxor and Sharm El-Sheikh.",
+        "ru": "Хан-эль-Халили в Каире — один из известных рынков для туристов. Туристические рынки также есть в таких городах, как Луксор и Шарм-эш-Шейх.",
+        "de": "Khan El-Khalili in Kairo ist einer der bekannten Märkte für Touristen. Weitere touristische Märkte gibt es unter anderem in Luxor und Sharm El-Sheikh."
+      }
+    },
+
+    {
+      "id": "traditional_crafts",
+      "subcategory": "traditional_crafts",
+
+      "name": {
+        "ar": "الحرف التقليدية",
+        "en": "Traditional Crafts",
+        "ru": "Традиционные ремёсла",
+        "de": "Traditionelles Kunsthandwerk"
+      },
+
+      "questions": {
+        "ar": [
+          "ما الحرف التقليدية المشهورة في مصر؟",
+          "ما المنتجات المصرية المصنوعة يدويًا؟",
+          "ماذا يمكنني شراء من الحرف المصرية؟"
+        ],
+        "en": [
+          "What traditional crafts are famous in Egypt?",
+          "What handmade Egyptian products can I buy?",
+          "What Egyptian handicrafts can I buy?"
+        ],
+        "ru": [
+          "Какие традиционные ремёсла известны в Египте?",
+          "Какие египетские изделия ручной работы можно купить?",
+          "Какие египетские ремесленные изделия можно приобрести?"
+        ],
+        "de": [
+          "Welche traditionellen Handwerke sind in Ägypten bekannt?",
+          "Welche handgefertigten ägyptischen Produkte kann ich kaufen?",
+          "Welche ägyptischen Kunsthandwerksprodukte kann ich kaufen?"
+        ]
+      },
+
+      "keywords": [
+        "crafts",
+        "handicrafts",
+        "traditional crafts",
+        "حرف يدوية",
+        "مشغولات يدوية",
+        "الحرف التقليدية",
+        "ремесла",
+        "handwerk"
+      ],
+
+      "answer": {
+        "ar": "من أمثلة الحرف والمنتجات التقليدية في مصر المشغولات الزجاجية، الفخار، المجوهرات، البردي، السجاد، الأوشحة، المنسوجات القطنية، العقيق أو الألاباستر، العطور والتوابل.",
+        "en": "Examples of Egyptian traditional crafts and products include glassware, pottery, jewelry, papyrus, carpets, scarves, cotton textiles, alabaster, perfumes, and spices.",
+        "ru": "Примеры традиционных египетских ремёсел и изделий включают стеклянные изделия, керамику, украшения, папирус, ковры, шарфы, хлопковый текстиль, алебастр, духи и специи.",
+        "de": "Zu den traditionellen ägyptischen Handwerksprodukten gehören Glaswaren, Keramik, Schmuck, Papyrus, Teppiche, Schals, Baumwolltextilien, Alabaster, Parfüms und Gewürze."
+      }
+    },
+
+    {
+      "id": "papyrus",
+      "subcategory": "papyrus",
+
+      "name": {
+        "ar": "البردي",
+        "en": "Papyrus",
+        "ru": "Папирус",
+        "de": "Papyrus"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو البردي؟",
+          "أين يمكن شراء البردي في مصر؟",
+          "هل البردي من الهدايا المصرية؟"
+        ],
+        "en": [
+          "What is papyrus?",
+          "Where can I buy papyrus in Egypt?",
+          "Is papyrus a traditional Egyptian souvenir?"
+        ],
+        "ru": [
+          "Что такое папирус?",
+          "Где можно купить папирус в Египте?",
+          "Является ли папирус египетским сувениром?"
+        ],
+        "de": [
+          "Was ist Papyrus?",
+          "Wo kann ich Papyrus in Ägypten kaufen?",
+          "Ist Papyrus ein traditionelles ägyptisches Souvenir?"
+        ]
+      },
+
+      "keywords": [
+        "papyrus",
+        "بردي",
+        "ورق البردي",
+        "папирус",
+        "papyrus kaufen"
+      ],
+
+      "answer": {
+        "ar": "البردي من المنتجات المرتبطة بالتراث المصري القديم، ويباع ضمن المنتجات والهدايا التذكارية السياحية.",
+        "en": "Papyrus is a product associated with ancient Egyptian heritage and is sold as a traditional tourist souvenir.",
+        "ru": "Папирус связан с древнеегипетским наследием и продаётся как традиционный туристический сувенир.",
+        "de": "Papyrus ist mit dem altägyptischen Erbe verbunden und wird als traditionelles touristisches Souvenir verkauft."
+      }
+    },
+
+    {
+      "id": "spices",
+      "subcategory": "spices",
+
+      "name": {
+        "ar": "التوابل",
+        "en": "Spices",
+        "ru": "Специи",
+        "de": "Gewürze"
+      },
+
+      "questions": {
+        "ar": [
+          "أين يمكنني شراء التوابل في مصر؟",
+          "هل التوابل من المنتجات المصرية المشهورة؟",
+          "أين أجد أسواق التوابل؟"
+        ],
+        "en": [
+          "Where can I buy spices in Egypt?",
+          "Are spices popular Egyptian products?",
+          "Where can I find spice markets?"
+        ],
+        "ru": [
+          "Где можно купить специи в Египте?",
+          "Являются ли специи популярным египетским продуктом?",
+          "Где можно найти рынки специй?"
+        ],
+        "de": [
+          "Wo kann ich in Ägypten Gewürze kaufen?",
+          "Sind Gewürze beliebte ägyptische Produkte?",
+          "Wo finde ich Gewürzmärkte?"
+        ]
+      },
+
+      "keywords": [
+        "spices",
+        "spice market",
+        "توابل",
+        "بهارات",
+        "سوق التوابل",
+        "специи",
+        "gewürze"
+      ],
+
+      "answer": {
+        "ar": "التوابل من المنتجات التي يمكن العثور عليها في الأسواق التقليدية والسياحية في مصر، ومنها الأسواق المعروفة في القاهرة والأقصر وشرم الشيخ.",
+        "en": "Spices can be found in traditional and tourist markets in Egypt, including well-known markets in Cairo, Luxor, and Sharm El-Sheikh.",
+        "ru": "Специи можно найти на традиционных и туристических рынках Египта, в том числе на известных рынках Каира, Луксора и Шарм-эш-Шейха.",
+        "de": "Gewürze findet man auf traditionellen und touristischen Märkten in Ägypten, unter anderem auf bekannten Märkten in Kairo, Luxor und Sharm El-Sheikh."
+      }
+    }
+
+  ],
+
+  "food": [
+
+    {
+      "id": "koshary",
+      "subcategory": "koshary",
+
+      "name": {
+        "ar": "الكشري",
+        "en": "Koshary",
+        "ru": "Кошари",
+        "de": "Kuschari"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو الكشري؟",
+          "ما مكونات الكشري؟",
+          "هل الكشري أكل مصري؟"
+        ],
+        "en": [
+          "What is koshary?",
+          "What are the ingredients of koshary?",
+          "Is koshary an Egyptian dish?"
+        ],
+        "ru": [
+          "Что такое кошари?",
+          "Из чего состоит кошари?",
+          "Является ли кошари египетским блюдом?"
+        ],
+        "de": [
+          "Was ist Kuschari?",
+          "Welche Zutaten enthält Kuschari?",
+          "Ist Kuschari ein ägyptisches Gericht?"
+        ]
+      },
+
+      "keywords": [
+        "koshary",
+        "koshari",
+        "كشري",
+        "الكشري",
+        "кошари",
+        "kuschari"
+      ],
+
+      "answer": {
+        "ar": "الكشري من أشهر الأكلات المصرية، ويتكون عادةً من الأرز والمكرونة والعدس والحمص وصلصة الطماطم والبصل المقلي.",
+        "en": "Koshary is one of Egypt's well-known dishes. It typically combines rice, pasta, lentils, chickpeas, tomato sauce, and fried onions.",
+        "ru": "Кошари — одно из известных египетских блюд. Обычно оно состоит из риса, макарон, чечевицы, нута, томатного соуса и жареного лука.",
+        "de": "Kuschari ist eines der bekannten ägyptischen Gerichte. Es besteht typischerweise aus Reis, Nudeln, Linsen, Kichererbsen, Tomatensauce und Röstzwiebeln."
+      }
+    },
+
+    {
+      "id": "ful",
+      "subcategory": "ful",
+
+      "name": {
+        "ar": "الفول",
+        "en": "Ful Medames",
+        "ru": "Фуль медамес",
+        "de": "Ful Medames"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو الفول المصري؟",
+          "ما هو فول مدمس؟",
+          "هل الفول من الأكلات المصرية؟"
+        ],
+        "en": [
+          "What is Egyptian ful?",
+          "What is ful medames?",
+          "Is ful an Egyptian dish?"
+        ],
+        "ru": [
+          "Что такое египетский фуль?",
+          "Что такое фуль медамес?",
+          "Является ли фуль египетским блюдом?"
+        ],
+        "de": [
+          "Was ist ägyptischer Ful?",
+          "Was ist Ful Medames?",
+          "Ist Ful ein ägyptisches Gericht?"
+        ]
+      },
+
+      "keywords": [
+        "ful",
+        "ful medames",
+        "fava beans",
+        "فول",
+        "فول مدمس",
+        "фуль",
+        "ful medames"
+      ],
+
+      "answer": {
+        "ar": "الفول المدمس من الأكلات المصرية المعروفة، ويُحضّر من الفول ويقدم بطرق مختلفة.",
+        "en": "Ful medames is a well-known Egyptian dish made from fava beans and served in different ways.",
+        "ru": "Фуль медамес — известное египетское блюдо из бобов, которое подают разными способами.",
+        "de": "Ful Medames ist ein bekanntes ägyptisches Gericht aus Saubohnen, das auf verschiedene Arten serviert wird."
+      }
+    },
+
+    {
+      "id": "taameya",
+      "subcategory": "taameya",
+
+      "name": {
+        "ar": "الطعمية",
+        "en": "Taameya",
+        "ru": "Таамея",
+        "de": "Taameya"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هي الطعمية المصرية؟",
+          "من ماذا تصنع الطعمية؟",
+          "هل الطعمية مصرية؟"
+        ],
+        "en": [
+          "What is Egyptian taameya?",
+          "What is taameya made from?",
+          "Is taameya Egyptian?"
+        ],
+        "ru": [
+          "Что такое египетская таамея?",
+          "Из чего делают таамею?",
+          "Является ли таамея египетским блюдом?"
+        ],
+        "de": [
+          "Was ist ägyptische Taameya?",
+          "Woraus wird Taameya hergestellt?",
+          "Ist Taameya ein ägyptisches Gericht?"
+        ]
+      },
+
+      "keywords": [
+        "taameya",
+        "falafel egypt",
+        "falafel",
+        "طعمية",
+        "الطعمية",
+        "таамея",
+        "ägyptische falafel"
+      ],
+
+      "answer": {
+        "ar": "الطعمية من أشهر الأكلات المصرية، وتُحضّر في مصر أساسًا من الفول المطحون مع مكونات وتوابل مختلفة.",
+        "en": "Taameya is a famous Egyptian dish. In Egypt it is traditionally made mainly from ground fava beans with different ingredients and spices.",
+        "ru": "Таамея — известное египетское блюдо. В Египте её традиционно готовят в основном из измельчённых бобов с различными ингредиентами и специями.",
+        "de": "Taameya ist ein bekanntes ägyptisches Gericht. In Ägypten wird sie traditionell hauptsächlich aus gemahlenen Saubohnen mit verschiedenen Zutaten und Gewürzen zubereitet."
+      }
+    },
+
+    {
+      "id": "molokhia",
+      "subcategory": "molokhia",
+
+      "name": {
+        "ar": "الملوخية",
+        "en": "Molokhia",
+        "ru": "Молохея",
+        "de": "Molokhia"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هي الملوخية؟",
+          "هل الملوخية من الأكلات المصرية؟",
+          "كيف تقدم الملوخية؟"
+        ],
+        "en": [
+          "What is molokhia?",
+          "Is molokhia an Egyptian dish?",
+          "How is molokhia served?"
+        ],
+        "ru": [
+          "Что такое молохея?",
+          "Является ли молохея египетским блюдом?",
+          "Как подают молохею?"
+        ],
+        "de": [
+          "Was ist Molokhia?",
+          "Ist Molokhia ein ägyptisches Gericht?",
+          "Wie wird Molokhia serviert?"
+        ]
+      },
+
+      "keywords": [
+        "molokhia",
+        "molokheya",
+        "ملوخية",
+        "الملوخية",
+        "молохея"
+      ],
+
+      "answer": {
+        "ar": "الملوخية من الأكلات المعروفة في المطبخ المصري، وتُحضّر من أوراق الملوخية وتقدم بطرق مختلفة.",
+        "en": "Molokhia is a well-known dish in Egyptian cuisine. It is prepared from molokhia leaves and served in different ways.",
+        "ru": "Молохея — известное блюдо египетской кухни. Его готовят из листьев молохеи и подают разными способами.",
+        "de": "Molokhia ist ein bekanntes Gericht der ägyptischen Küche. Es wird aus Molokhia-Blättern zubereitet und auf verschiedene Arten serviert."
+      }
+    },
+
+    {
+      "id": "feteer",
+      "subcategory": "feteer",
+
+      "name": {
+        "ar": "الفطير",
+        "en": "Feteer",
+        "ru": "Фетир",
+        "de": "Feteer"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هو الفطير المصري؟",
+          "هل الفطير من الأكلات المصرية؟",
+          "ما أنواع الفطير؟"
+        ],
+        "en": [
+          "What is Egyptian feteer?",
+          "Is feteer an Egyptian dish?",
+          "What types of feteer are there?"
+        ],
+        "ru": [
+          "Что такое египетский фетир?",
+          "Является ли фетир египетским блюдом?",
+          "Какие бывают виды фетира?"
+        ],
+        "de": [
+          "Was ist ägyptischer Feteer?",
+          "Ist Feteer ein ägyptisches Gericht?",
+          "Welche Arten von Feteer gibt es?"
+        ]
+      },
+
+      "keywords": [
+        "feteer",
+        "feteer meshaltet",
+        "فطير",
+        "فطير مشلتت",
+        "фетир"
+      ],
+
+      "answer": {
+        "ar": "الفطير من الأكلات المصرية التقليدية، ويمكن تقديمه بأشكال وحشوات مختلفة.",
+        "en": "Feteer is a traditional Egyptian food that can be served in different forms and with different fillings.",
+        "ru": "Фетир — традиционное египетское блюдо, которое может подаваться в разных формах и с различными начинками.",
+        "de": "Feteer ist ein traditionelles ägyptisches Gericht, das in verschiedenen Formen und mit unterschiedlichen Füllungen serviert werden kann."
+      }
+    }
+
+  ],
+
+  "transport": [
+      {
+      "id": "transport_general",
+      "subcategory": "general transportation guidance",
+
+      "name": {
+        "ar": "وسائل المواصلات في مصر",
+        "en": "Transportation in Egypt",
+        "ru": "Транспорт в Египте",
+        "de": "Verkehrsmittel in Ägypten"
+      },
+
+      "questions": {
+        "ar": [
+          "ما وسائل المواصلات في مصر؟",
+          "ما هي وسائل النقل في مصر؟",
+          "كيف أتنقل في مصر؟",
+          "كيف يمكنني التنقل في مصر؟",
+          "ما طرق المواصلات المتاحة في مصر؟",
+          "ما أفضل وسائل التنقل في مصر؟"
+        ],
+        "en": [
+          "What transportation is available in Egypt?",
+          "What are the means of transportation in Egypt?",
+          "How can I get around Egypt?",
+          "How can I travel around Egypt?",
+          "What transportation options are available in Egypt?"
+        ],
+        "ru": [
+          "Какие виды транспорта есть в Египте?",
+          "Как передвигаться по Египту?",
+          "Какие варианты транспорта доступны в Египте?"
+        ],
+        "de": [
+          "Welche Verkehrsmittel gibt es in Ägypten?",
+          "Wie kann ich mich in Ägypten fortbewegen?",
+          "Welche Transportmöglichkeiten gibt es in Ägypten?"
+        ]
+      },
+
+      "keywords": [
+        "مواصلات",
+        "المواصلات",
+        "وسائل المواصلات",
+        "وسائل النقل",
+        "النقل",
+        "تنقل",
+        "التنقل",
+        "transportation",
+        "transport",
+        "getting around",
+        "travel around",
+        "транспорт",
+        "Verkehrsmittel"
+      ],
+
+      "answer": {
+        "ar": "تشمل وسائل المواصلات في مصر التاكسي، مترو القاهرة، القطارات، الرحلات الجوية الداخلية، ورحلات النيل. وتختلف الوسيلة المناسبة حسب المدينة والوجهة.",
+        "en": "Transportation options in Egypt include taxis, the Cairo Metro, trains, domestic flights, and Nile cruises. The most suitable option depends on the city and destination.",
+        "ru": "Варианты транспорта в Египте включают такси, каирское метро, поезда, внутренние авиарейсы и круизы по Нилу. Подходящий вариант зависит от города и пункта назначения.",
+        "de": "Zu den Verkehrsmitteln in Ägypten gehören Taxis, die Metro Kairo, Züge, Inlandsflüge und Nilkreuzfahrten. Die passende Option hängt von der Stadt und dem Reiseziel ab."
+      }
+    },
+    {
+      "id": "taxi",
+      "subcategory": "taxi",
+
+      "name": {
+        "ar": "التاكسي",
+        "en": "Taxi",
+        "ru": "Такси",
+        "de": "Taxi"
+      },
+
+      "questions": {
+        "ar": [
+          "كيف أستخدم التاكسي في مصر؟",
+          "هل التاكسي متوفر للسياح؟",
+          "ما أفضل طريقة للتنقل بالتاكسي؟"
+        ],
+        "en": [
+          "How can I use taxis in Egypt?",
+          "Are taxis available for tourists?",
+          "What should I know about using taxis?"
+        ],
+        "ru": [
+          "Как пользоваться такси в Египте?",
+          "Доступны ли такси для туристов?",
+          "Что нужно знать о поездках на такси?"
+        ],
+        "de": [
+          "Wie kann ich in Ägypten ein Taxi benutzen?",
+          "Sind Taxis für Touristen verfügbar?",
+          "Was sollte ich über Taxis wissen?"
+        ]
+      },
+
+      "keywords": [
+        "taxi",
+        "taxis",
+        "تاكسي",
+        "تاكسي مصر",
+        "такси",
+        "taxi ägypten"
+      ],
+
+      "answer": {
+        "ar": "التاكسي من وسائل النقل المتاحة في المدن المصرية. يُنصح السائح بالتأكد من وسيلة الدفع والسعر المتفق عليه قبل الرحلة، ويمكن الاستعانة بخدمة نقل موثوقة عند توفرها.",
+        "en": "Taxis are available in Egyptian cities. Tourists should confirm the payment method and agreed fare before the trip and use a reliable transport service when available.",
+        "ru": "Такси доступны в египетских городах. Туристам рекомендуется заранее уточнить способ оплаты и согласованную стоимость поездки и при возможности пользоваться надёжной транспортной службой.",
+        "de": "Taxis sind in ägyptischen Städten verfügbar. Touristen sollten vor der Fahrt die Zahlungsweise und den vereinbarten Fahrpreis klären und nach Möglichkeit einen zuverlässigen Transportdienst nutzen."
+      }
+    },
+
+    {
+      "id": "metro",
+      "subcategory": "metro",
+
+      "name": {
+        "ar": "مترو القاهرة",
+        "en": "Cairo Metro",
+        "ru": "Каирское метро",
+        "de": "Metro Kairo"
+      },
+
+      "questions": {
+        "ar": [
+          "هل يوجد مترو في القاهرة؟",
+          "كيف أستخدم مترو القاهرة؟",
+          "هل مترو القاهرة وسيلة مواصلات للسياح؟"
+        ],
+        "en": [
+          "Is there a metro in Cairo?",
+          "How can I use the Cairo Metro?",
+          "Can tourists use the Cairo Metro?"
+        ],
+        "ru": [
+          "Есть ли метро в Каире?",
+          "Как пользоваться каирским метро?",
+          "Могут ли туристы пользоваться метро Каира?"
+        ],
+        "de": [
+          "Gibt es eine Metro in Kairo?",
+          "Wie benutzt man die Metro in Kairo?",
+          "Können Touristen die Metro in Kairo benutzen?"
+        ]
+      },
+
+      "keywords": [
+        "metro",
+        "cairo metro",
+        "subway cairo",
+        "مترو",
+        "مترو القاهرة",
+        "метро",
+        "metro kairo"
+      ],
+
+      "answer": {
+        "ar": "مترو القاهرة وسيلة نقل عامة داخل القاهرة، ويمكن أن يكون خيارًا للتنقل داخل المناطق التي تخدمها شبكة المترو.",
+        "en": "The Cairo Metro is a public transportation system in Cairo and can be useful for traveling within areas served by the metro network.",
+        "ru": "Каирское метро — система общественного транспорта Каира, которую можно использовать для поездок по районам, обслуживаемым сетью метро.",
+        "de": "Die Metro Kairo ist ein öffentliches Verkehrsmittel und kann für Fahrten innerhalb der von der Metro bedienten Gebiete genutzt werden."
+      }
+    },
+
+    {
+      "id": "train",
+      "subcategory": "train",
+
+      "name": {
+        "ar": "القطارات",
+        "en": "Trains",
+        "ru": "Поезда",
+        "de": "Züge"
+      },
+
+      "questions": {
+        "ar": [
+          "هل يمكن السفر بالقطار في مصر؟",
+          "هل القطارات مناسبة للسياح؟",
+          "كيف أستخدم القطار في مصر؟"
+        ],
+        "en": [
+          "Can I travel by train in Egypt?",
+          "Are trains suitable for tourists?",
+          "How can I use trains in Egypt?"
+        ],
+        "ru": [
+          "Можно ли путешествовать по Египту на поезде?",
+          "Подходят ли поезда туристам?",
+          "Как пользоваться поездами в Египте?"
+        ],
+        "de": [
+          "Kann ich in Ägypten mit dem Zug reisen?",
+          "Sind Züge für Touristen geeignet?",
+          "Wie kann ich Züge in Ägypten benutzen?"
+        ]
+      },
+
+      "keywords": [
+        "train",
+        "trains egypt",
+        "railway",
+        "قطار",
+        "القطارات",
+        "поезд",
+        "züge ägypten"
+      ],
+
+      "answer": {
+        "ar": "القطارات من وسائل النقل المستخدمة للسفر بين عدد من المدن المصرية. للحصول على المواعيد والأسعار الحالية يجب الرجوع إلى الجهة الرسمية المختصة، لأن هذه المعلومات تتغير.",
+        "en": "Trains are used for travel between several Egyptian cities. For current schedules and prices, check the relevant official authority because this information can change.",
+        "ru": "Поезда используются для поездок между несколькими египетскими городами. Актуальные расписания и цены следует проверять у соответствующего официального органа, поскольку эта информация может меняться.",
+        "de": "Züge werden für Reisen zwischen mehreren ägyptischen Städten genutzt. Aktuelle Fahrpläne und Preise sollten bei der zuständigen offiziellen Stelle überprüft werden, da sich diese Informationen ändern können."
+      }
+    },
+
+    {
+      "id": "domestic_flights",
+      "subcategory": "domestic_flights",
+
+      "name": {
+        "ar": "الرحلات الجوية الداخلية",
+        "en": "Domestic Flights",
+        "ru": "Внутренние авиарейсы",
+        "de": "Inlandsflüge"
+      },
+
+      "questions": {
+        "ar": [
+          "هل توجد رحلات جوية داخلية في مصر؟",
+          "كيف أحجز رحلة داخلية في مصر؟",
+          "كيف أسافر بين المدن المصرية بالطائرة؟"
+        ],
+        "en": [
+          "Are there domestic flights in Egypt?",
+          "How can I book a domestic flight in Egypt?",
+          "How can I travel between Egyptian cities by plane?"
+        ],
+        "ru": [
+          "Есть ли внутренние рейсы в Египте?",
+          "Как забронировать внутренний рейс в Египте?",
+          "Как путешествовать между городами Египта на самолёте?"
+        ],
+        "de": [
+          "Gibt es Inlandsflüge in Ägypten?",
+          "Wie kann ich einen Inlandsflug in Ägypten buchen?",
+          "Wie kann ich zwischen ägyptischen Städten mit dem Flugzeug reisen?"
+        ]
+      },
+
+      "keywords": [
+        "domestic flights",
+        "internal flights",
+        "flight egypt",
+        "رحلات داخلية",
+        "طيران داخلي",
+        "внутренние рейсы",
+        "inlandsflüge"
+      ],
+
+      "answer": {
+        "ar": "توجد رحلات جوية داخلية بين بعض المدن المصرية. لحجز رحلة أو معرفة المواعيد الحالية، يُفضل التواصل مع شركة الطيران أو وكالة سفر معتمدة.",
+        "en": "Domestic flights operate between some Egyptian cities. For booking and current schedules, contact the airline or an authorized travel agency.",
+        "ru": "Между некоторыми городами Египта выполняются внутренние рейсы. Для бронирования и получения актуального расписания следует обратиться к авиакомпании или авторизованному туристическому агентству.",
+        "de": "Zwischen einigen ägyptischen Städten gibt es Inlandsflüge. Für Buchungen und aktuelle Flugpläne sollte man sich an die Fluggesellschaft oder ein autorisiertes Reisebüro wenden."
+      }
+    },
+
+    {
+      "id": "nile_cruises",
+      "subcategory": "nile_cruises",
+
+      "name": {
+        "ar": "رحلات نهر النيل",
+        "en": "Nile Cruises",
+        "ru": "Круизы по Нилу",
+        "de": "Nilkreuzfahrten"
+      },
+
+      "questions": {
+        "ar": [
+          "ما هي رحلات النيل؟",
+          "هل يمكنني القيام برحلة نيلية في مصر؟",
+          "ما المدن المرتبطة بالرحلات النيلية؟"
+        ],
+        "en": [
+          "What are Nile cruises?",
+          "Can I take a Nile cruise in Egypt?",
+          "Which cities are associated with Nile cruises?"
+        ],
+        "ru": [
+          "Что такое круизы по Нилу?",
+          "Можно ли совершить круиз по Нилу в Египте?",
+          "Какие города связаны с круизами по Нилу?"
+        ],
+        "de": [
+          "Was sind Nilkreuzfahrten?",
+          "Kann ich eine Nilkreuzfahrt in Ägypten machen?",
+          "Welche Städte sind mit Nilkreuzfahrten verbunden?"
+        ]
+      },
+
+      "keywords": [
+        "nile cruise",
+        "nile cruises",
+        "nile",
+        "رحلة نيلية",
+        "رحلات النيل",
+        "круиз по нилу",
+        "nilkreuzfahrt"
+      ],
+
+      "answer": {
+        "ar": "رحلات النيل من الطرق السياحية المعروفة لاستكشاف عدد من المواقع التاريخية على طول نهر النيل. تختلف البرامج والمدة حسب الرحلة وشركة التشغيل.",
+        "en": "Nile cruises are a popular way to explore historical sites along the Nile. Programs and durations vary depending on the cruise and operator.",
+        "ru": "Круизы по Нилу — популярный способ посетить исторические места вдоль Нила. Программы и продолжительность зависят от круиза и оператора.",
+        "de": "Nilkreuzfahrten sind eine beliebte Möglichkeit, historische Stätten entlang des Nils zu erkunden. Programme und Dauer unterscheiden sich je nach Kreuzfahrt und Anbieter."
+      }
+    }
+
+  ],
+
+  "tickets": [
+
+    {
+      "id": "how_to_buy_tickets",
+      "subcategory": "how_to_buy",
+
+      "name": {
+        "ar": "كيفية شراء التذاكر",
+        "en": "How to Buy Tickets",
+        "ru": "Как купить билеты",
+        "de": "So kauft man Tickets"
+      },
+
+      "questions": {
+        "ar": [
+          "كيف أشتري تذاكر الأماكن السياحية في مصر؟",
+          "من أين أشتري تذاكر المواقع الأثرية؟",
+          "هل يمكن شراء التذاكر عند الدخول؟"
+        ],
+        "en": [
+          "How can I buy tickets for tourist attractions in Egypt?",
+          "Where can I buy tickets for archaeological sites?",
+          "Can I buy tickets at the entrance?"
+        ],
+        "ru": [
+          "Как купить билеты в туристические места Египта?",
+          "Где купить билеты на археологические объекты?",
+          "Можно ли купить билет на входе?"
+        ],
+        "de": [
+          "Wie kaufe ich Tickets für Sehenswürdigkeiten in Ägypten?",
+          "Wo kann ich Tickets für archäologische Stätten kaufen?",
+          "Kann ich Tickets am Eingang kaufen?"
+        ]
+      },
+
+      "keywords": [
+        "tickets",
+        "ticket",
+        "buy tickets",
+        "tickets egypt",
+        "تذاكر",
+        "شراء التذاكر",
+        "بليت",
+        "билеты",
+        "tickets kaufen"
+      ],
+
+      "answer": {
+        "ar": "يمكن شراء تذاكر بعض المواقع الأثرية والمتاحف من منافذ البيع أو من خلال المنصات الرسمية المتاحة. يجب التأكد من الموقع الرسمي للمكان قبل الشراء.",
+        "en": "Tickets for some archaeological sites and museums can be purchased from ticket offices or available official platforms. Always verify the official website before purchasing.",
+        "ru": "Билеты в некоторые археологические объекты и музеи можно приобрести в билетных кассах или через доступные официальные платформы. Перед покупкой следует проверить официальный сайт.",
+        "de": "Tickets für einige archäologische Stätten und Museen können an den Kassen oder über verfügbare offizielle Plattformen gekauft werden. Vor dem Kauf sollte man die offizielle Website überprüfen."
+      }
+    },
+
+    {
+      "id": "online_tickets",
+      "subcategory": "online_tickets",
+
+      "name": {
+        "ar": "التذاكر الإلكترونية",
+        "en": "Online Tickets",
+        "ru": "Онлайн-билеты",
+        "de": "Online-Tickets"
+      },
+
+      "questions": {
+        "ar": [
+          "هل يمكن شراء التذاكر أونلاين؟",
+          "هل توجد تذاكر إلكترونية للمواقع الأثرية؟",
+          "أين أشتري التذاكر أونلاين؟"
+        ],
+        "en": [
+          "Can I buy tickets online?",
+          "Are online tickets available for archaeological sites?",
+          "Where can I buy tickets online?"
+        ],
+        "ru": [
+          "Можно ли купить билеты онлайн?",
+          "Есть ли электронные билеты на археологические объекты?",
+          "Где купить билеты онлайн?"
+        ],
+        "de": [
+          "Kann ich Tickets online kaufen?",
+          "Gibt es Online-Tickets für archäologische Stätten?",
+          "Wo kann ich Tickets online kaufen?"
+        ]
+      },
+
+      "keywords": [
+        "online tickets",
+        "e tickets",
+        "online booking",
+        "تذاكر اونلاين",
+        "تذاكر إلكترونية",
+        "онлайн билеты",
+        "online tickets"
+      ],
+
+      "answer": {
+        "ar": "تتوفر خدمات شراء إلكترونية لبعض المواقع. للحصول على الرابط الصحيح والمعلومات الحالية، استخدم الموقع الرسمي لوزارة السياحة والآثار أو الموقع الرسمي للمكان.",
+        "en": "Online ticketing is available for some sites. For the correct link and current information, use the official Ministry of Tourism and Antiquities website or the site's official website.",
+        "ru": "Для некоторых объектов доступна онлайн-покупка билетов. Для получения правильной ссылки и актуальной информации используйте официальный сайт Министерства туризма и древностей или официальный сайт объекта.",
+        "de": "Für einige Sehenswürdigkeiten ist der Online-Ticketkauf verfügbar. Für den richtigen Link und aktuelle Informationen sollte man die offizielle Website des Ministeriums für Tourismus und Altertümer oder die offizielle Website des Ortes nutzen."
+      }
+    },
+
+    {
+      "id": "current_prices",
+      "subcategory": "current_prices",
+
+      "name": {
+        "ar": "الأسعار الحالية",
+        "en": "Current Prices",
+        "ru": "Текущие цены",
+        "de": "Aktuelle Preise"
+      },
+
+      "questions": {
+        "ar": [
+          "بكام التذكرة؟",
+          "ما سعر التذكرة الحالي؟",
+          "كم سعر دخول الأهرامات؟",
+          "كم سعر دخول المتحف؟"
+        ],
+        "en": [
+          "How much is the ticket?",
+          "What is the current ticket price?",
+          "How much is admission to the pyramids?",
+          "How much is museum admission?"
+        ],
+        "ru": [
+          "Сколько стоит билет?",
+          "Какова текущая цена билета?",
+          "Сколько стоит вход в пирамиды?",
+          "Сколько стоит вход в музей?"
+        ],
+        "de": [
+          "Wie viel kostet das Ticket?",
+          "Wie hoch ist der aktuelle Ticketpreis?",
+          "Wie viel kostet der Eintritt zu den Pyramiden?",
+          "Wie viel kostet der Museumseintritt?"
+        ]
+      },
+
+      "keywords": [
+        "price",
+        "ticket price",
+        "current price",
+        "cost",
+        "سعر التذكرة",
+        "بكام",
+        "السعر",
+        "цена билета",
+        "ticketpreis"
+      ],
+
+      "answer": {
+        "ar": "لا أذكر أسعارًا حالية من قاعدة المعرفة لأن أسعار التذاكر قد تتغير. للحصول على السعر الحالي يجب الرجوع إلى المصدر الرسمي للموقع أو وزارة السياحة والآثار.",
+        "en": "I do not provide current ticket prices from the knowledge base because prices may change. Check the official site of the attraction or the Ministry of Tourism and Antiquities for the current price.",
+        "ru": "Я не указываю текущие цены на билеты из базы знаний, поскольку цены могут меняться. Актуальную стоимость следует проверять на официальном сайте объекта или Министерства туризма и древностей.",
+        "de": "Ich gebe keine aktuellen Ticketpreise aus der Wissensdatenbank an, da sich Preise ändern können. Den aktuellen Preis sollte man auf der offiziellen Website der Sehenswürdigkeit oder des Ministeriums für Tourismus und Altertümer prüfen."
+      }
+    }
+  ],
+    "photography": [
+
+    {
+      "id": "allowed_photography",
+      "subcategory": "allowed_photography",
+
+      "name": {
+        "ar": "التصوير المسموح",
+        "en": "Allowed Photography",
+        "ru": "Разрешённая фотосъёмка",
+        "de": "Erlaubtes Fotografieren"
+      },
+
+      "questions": {
+        "ar": [
+          "هل التصوير مسموح في مصر؟",
+          "هل يمكنني التصوير في الأماكن السياحية؟",
+          "هل التصوير الشخصي مسموح في المواقع الأثرية؟"
+        ],
+        "en": [
+          "Is photography allowed in Egypt?",
+          "Can I take photos at tourist attractions?",
+          "Is personal photography allowed at archaeological sites?"
+        ],
+        "ru": [
+          "Разрешена ли фотосъёмка в Египте?",
+          "Можно ли фотографировать в туристических местах?",
+          "Разрешена ли личная фотосъёмка на археологических объектах?"
+        ],
+        "de": [
+          "Ist Fotografieren in Ägypten erlaubt?",
+          "Darf ich an Sehenswürdigkeiten fotografieren?",
+          "Ist persönliches Fotografieren an archäologischen Stätten erlaubt?"
+        ]
+      },
+
+      "keywords": [
+        "photography",
+        "photos",
+        "take photos",
+        "camera",
+        "تصوير",
+        "صور",
+        "التصوير",
+        "фотография",
+        "фотографировать",
+        "fotografieren"
+      ],
+
+      "answer": {
+        "ar": "التصوير الشخصي غير التجاري مسموح بشكل عام في الأماكن العامة والمواقع الأثرية والمتاحف، مع الالتزام بالقواعد الخاصة بكل مكان. التصوير بالفلاش داخل الأماكن المغلقة غير مسموح.",
+        "en": "Personal, non-commercial photography is generally allowed in public areas, archaeological sites, and museums, subject to the rules of each place. Flash photography indoors is not allowed.",
+        "ru": "Личная некоммерческая фотосъёмка в целом разрешена в общественных местах, археологических объектах и музеях при соблюдении правил конкретного места. Использование вспышки внутри помещений не разрешается.",
+        "de": "Persönliches, nicht kommerzielles Fotografieren ist in der Regel in öffentlichen Bereichen, archäologischen Stätten und Museen erlaubt, sofern die jeweiligen Regeln beachtet werden. Fotografieren mit Blitz in Innenräumen ist nicht erlaubt."
+      }
+    },
+
+    {
+      "id": "museum_restrictions",
+      "subcategory": "museum_restrictions",
+
+      "name": {
+        "ar": "قيود التصوير في المتاحف",
+        "en": "Museum Photography Restrictions",
+        "ru": "Ограничения на фотосъёмку в музеях",
+        "de": "Fotografierregeln in Museen"
+      },
+
+      "questions": {
+        "ar": [
+          "هل التصوير مسموح داخل المتاحف؟",
+          "هل يمكن استخدام الفلاش في المتحف؟",
+          "ما قواعد التصوير في المتاحف المصرية؟"
+        ],
+        "en": [
+          "Can I take photos inside museums?",
+          "Can I use flash in museums?",
+          "What are the photography rules in Egyptian museums?"
+        ],
+        "ru": [
+          "Можно ли фотографировать внутри музеев?",
+          "Можно ли использовать вспышку в музеях?",
+          "Каковы правила фотосъёмки в египетских музеях?"
+        ],
+        "de": [
+          "Darf ich in Museen fotografieren?",
+          "Darf ich in Museen den Blitz benutzen?",
+          "Welche Regeln gelten für das Fotografieren in ägyptischen Museen?"
+        ]
+      },
+
+      "keywords": [
+        "museum photography",
+        "flash museum",
+        "photography rules",
+        "تصوير المتاحف",
+        "فلاش",
+        "قواعد التصوير",
+        "фото в музее",
+        "blitz museum"
+      ],
+
+      "answer": {
+        "ar": "يمكن أن يكون التصوير الشخصي مسموحًا في المتاحف، لكن يجب الالتزام بقواعد المتحف. لا تستخدم الفلاش داخل الأماكن المغلقة.",
+        "en": "Personal photography may be allowed in museums, but visitors must follow the museum's rules. Do not use flash indoors.",
+        "ru": "Личная фотосъёмка может быть разрешена в музеях, но посетители должны соблюдать правила конкретного музея. Не используйте вспышку внутри помещений.",
+        "de": "Persönliches Fotografieren kann in Museen erlaubt sein, aber Besucher müssen die Regeln des jeweiligen Museums beachten. Verwenden Sie keinen Blitz in Innenräumen."
+      }
+    },
+
+    {
+      "id": "personal_photography",
+      "subcategory": "personal_photography",
+
+      "name": {
+        "ar": "التصوير الشخصي",
+        "en": "Personal Photography",
+        "ru": "Личная фотосъёмка",
+        "de": "Persönliche Fotografie"
+      },
+
+      "questions": {
+        "ar": [
+          "هل أحتاج تصريح للتصوير الشخصي؟",
+          "هل يمكنني تصوير الناس في مصر؟",
+          "هل يمكن تصوير الأطفال؟"
+        ],
+        "en": [
+          "Do I need a permit for personal photography?",
+          "Can I photograph people in Egypt?",
+          "Can I photograph children?"
+        ],
+        "ru": [
+          "Нужно ли разрешение для личной фотосъёмки?",
+          "Можно ли фотографировать людей в Египте?",
+          "Можно ли фотографировать детей?"
+        ],
+        "de": [
+          "Brauche ich für persönliche Fotos eine Genehmigung?",
+          "Darf ich Menschen in Ägypten fotografieren?",
+          "Darf ich Kinder fotografieren?"
+        ]
+      },
+
+      "keywords": [
+        "personal photography",
+        "permit photography",
+        "photograph people",
+        "children photos",
+        "تصوير شخصي",
+        "تصريح تصوير",
+        "تصوير أطفال",
+        "личная фотосъёмка",
+        "genehmigung fotografieren"
+      ],
+
+      "answer": {
+        "ar": "التصوير الشخصي غير التجاري في الأماكن العامة لا يحتاج عادةً إلى تصريح. يجب احترام خصوصية الآخرين؛ تصوير الأطفال غير مسموح، كما أن تصوير المواطنين المصريين يتطلب إذنًا كتابيًا.",
+        "en": "Personal, non-commercial photography in public areas generally does not require a permit. Respect people's privacy; photographing children is prohibited, and photographing Egyptian citizens requires written permission.",
+        "ru": "Личная некоммерческая фотосъёмка в общественных местах обычно не требует разрешения. Необходимо уважать частную жизнь людей: фотографирование детей запрещено, а для фотографирования египетских граждан требуется письменное разрешение.",
+        "de": "Persönliches, nicht kommerzielles Fotografieren im öffentlichen Raum erfordert normalerweise keine Genehmigung. Die Privatsphäre anderer muss respektiert werden; das Fotografieren von Kindern ist verboten, und für das Fotografieren ägyptischer Bürger ist eine schriftliche Genehmigung erforderlich."
+      }
+    }
+
+  ],
+
+  "culture_etiquette": [
+
+    {
+      "id": "mosques",
+      "subcategory": "mosques",
+
+      "name": {
+        "ar": "المساجد",
+        "en": "Mosques",
+        "ru": "Мечети",
+        "de": "Moscheen"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا أرتدي عند زيارة مسجد في مصر؟",
+          "ما قواعد زيارة المساجد؟",
+          "هل يجب تغطية الشعر في المسجد؟"
+        ],
+        "en": [
+          "What should I wear when visiting a mosque in Egypt?",
+          "What are the rules for visiting mosques?",
+          "Should I cover my hair in a mosque?"
+        ],
+        "ru": [
+          "Что надеть при посещении мечети в Египте?",
+          "Каковы правила посещения мечетей?",
+          "Нужно ли покрывать голову в мечети?"
+        ],
+        "de": [
+          "Was soll ich beim Besuch einer Moschee in Ägypten tragen?",
+          "Welche Regeln gelten beim Besuch einer Moschee?",
+          "Muss ich in einer Moschee meinen Kopf bedecken?"
+        ]
+      },
+
+      "keywords": [
+        "mosque",
+        "mosques",
+        "dress mosque",
+        "مسجد",
+        "المساجد",
+        "زيارة المسجد",
+        "мечеть",
+        "moschee"
+      ],
+
+      "answer": {
+        "ar": "عند زيارة المساجد يُفضل ارتداء ملابس محتشمة تغطي الكتفين والساقين. بالنسبة للنساء، قد يُطلب تغطية الرأس وارتداء ملابس محتشمة.",
+        "en": "When visiting mosques, modest clothing covering the shoulders and legs is appropriate. Women may be required to cover their heads and wear modest clothing.",
+        "ru": "При посещении мечетей следует носить скромную одежду, закрывающую плечи и ноги. Женщинам может потребоваться покрыть голову и носить скромную одежду.",
+        "de": "Beim Besuch von Moscheen sollte man sich dezent kleiden und Schultern und Beine bedecken. Frauen müssen möglicherweise den Kopf bedecken und angemessene Kleidung tragen."
+      }
+    },
+
+    {
+      "id": "churches",
+      "subcategory": "churches",
+
+      "name": {
+        "ar": "الكنائس",
+        "en": "Churches",
+        "ru": "Церкви",
+        "de": "Kirchen"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا أرتدي عند زيارة الكنائس في مصر؟",
+          "ما قواعد زيارة الكنائس؟",
+          "هل يجب ارتداء ملابس محتشمة في الكنيسة؟"
+        ],
+        "en": [
+          "What should I wear when visiting churches in Egypt?",
+          "What are the rules for visiting churches?",
+          "Should I wear modest clothes in a church?"
+        ],
+        "ru": [
+          "Что надеть при посещении церквей в Египте?",
+          "Каковы правила посещения церквей?",
+          "Нужно ли носить скромную одежду в церкви?"
+        ],
+        "de": [
+          "Was soll ich beim Besuch von Kirchen in Ägypten tragen?",
+          "Welche Regeln gelten beim Besuch von Kirchen?",
+          "Sollte ich mich in einer Kirche dezent kleiden?"
+        ]
+      },
+
+      "keywords": [
+        "church",
+        "churches egypt",
+        "dress church",
+        "كنيسة",
+        "الكنائس",
+        "زيارة الكنيسة",
+        "церковь",
+        "kirche"
+      ],
+
+      "answer": {
+        "ar": "عند زيارة الكنائس يُنصح بارتداء ملابس محتشمة واحترام طبيعة المكان وقواعده.",
+        "en": "When visiting churches, modest clothing is recommended. Visitors should respect the nature of the place and its rules.",
+        "ru": "При посещении церквей рекомендуется скромная одежда. Посетители должны уважать характер места и его правила.",
+        "de": "Beim Besuch von Kirchen wird dezente Kleidung empfohlen. Besucher sollten die religiöse Bedeutung des Ortes und seine Regeln respektieren."
+      }
+    },
+
+    {
+      "id": "clothing",
+      "subcategory": "clothing",
+
+      "name": {
+        "ar": "الملابس",
+        "en": "Clothing",
+        "ru": "Одежда",
+        "de": "Kleidung"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا أرتدي في مصر؟",
+          "ما الملابس المناسبة للسياح في مصر؟",
+          "هل يجب أن أرتدي ملابس محتشمة؟"
+        ],
+        "en": [
+          "What should I wear in Egypt?",
+          "What clothes are suitable for tourists in Egypt?",
+          "Should I wear modest clothing?"
+        ],
+        "ru": [
+          "Что носить в Египте?",
+          "Какая одежда подходит туристам в Египте?",
+          "Нужно ли носить скромную одежду?"
+        ],
+        "de": [
+          "Was soll ich in Ägypten tragen?",
+          "Welche Kleidung ist für Touristen in Ägypten geeignet?",
+          "Sollte ich dezente Kleidung tragen?"
+        ]
+      },
+
+      "keywords": [
+        "clothing",
+        "dress",
+        "what to wear",
+        "ملابس",
+        "لبس",
+        "ماذا أرتدي",
+        "одежда",
+        "was anziehen"
+      ],
+
+      "answer": {
+        "ar": "يفضل ارتداء ملابس خفيفة ومريحة ومناسبة للطقس. عند زيارة أماكن العبادة يُنصح بملابس أكثر احتشامًا تغطي الكتفين والساقين.",
+        "en": "Light, comfortable clothing suitable for the weather is recommended. When visiting places of worship, more modest clothing covering the shoulders and legs is appropriate.",
+        "ru": "Рекомендуется лёгкая и удобная одежда, подходящая для погоды. При посещении религиозных мест следует выбирать более скромную одежду, закрывающую плечи и ноги.",
+        "de": "Leichte, bequeme und dem Wetter entsprechende Kleidung wird empfohlen. Beim Besuch religiöser Orte sollte man sich dezenter kleiden und Schultern und Beine bedecken."
+      }
+    },
+
+    {
+      "id": "ramadan",
+      "subcategory": "ramadan",
+
+      "name": {
+        "ar": "رمضان",
+        "en": "Ramadan",
+        "ru": "Рамадан",
+        "de": "Ramadan"
+      },
+
+      "questions": {
+        "ar": [
+          "هل أحتاج معرفة شيء عن رمضان عند زيارة مصر؟",
+          "كيف أتصرف في رمضان في مصر؟",
+          "هل يجب احترام الصيام في مصر؟"
+        ],
+        "en": [
+          "What should tourists know about Ramadan in Egypt?",
+          "How should I behave during Ramadan in Egypt?",
+          "Should tourists respect fasting during Ramadan?"
+        ],
+        "ru": [
+          "Что туристам нужно знать о Рамадане в Египте?",
+          "Как вести себя во время Рамадана в Египте?",
+          "Нужно ли туристам уважать пост во время Рамадана?"
+        ],
+        "de": [
+          "Was sollten Touristen über Ramadan in Ägypten wissen?",
+          "Wie sollte ich mich während des Ramadan in Ägypten verhalten?",
+          "Sollten Touristen das Fasten im Ramadan respektieren?"
+        ]
+      },
+
+      "keywords": [
+        "ramadan",
+        "fasting",
+        "رمضان",
+        "الصيام",
+        "رمضان مصر",
+        "рамадан",
+        "fasten"
+      ],
+
+      "answer": {
+        "ar": "رمضان شهر مهم في مصر. يُنصح الزوار باحترام الصائمين والعادات المحلية خلال فترة الصيام.",
+        "en": "Ramadan is an important month in Egypt. Visitors are encouraged to respect people who are fasting and local customs during this period.",
+        "ru": "Рамадан — важный месяц в Египте. Туристам рекомендуется уважать постящихся и местные традиции в этот период.",
+        "de": "Ramadan ist ein wichtiger Monat in Ägypten. Besucher sollten Menschen, die fasten, und die örtlichen Traditionen während dieser Zeit respektieren."
+      }
+    },
+
+    {
+      "id": "cultural_behavior",
+      "subcategory": "cultural_behavior",
+
+      "name": {
+        "ar": "السلوك الثقافي",
+        "en": "Cultural Behavior",
+        "ru": "Культурное поведение",
+        "de": "Kulturelles Verhalten"
+      },
+
+      "questions": {
+        "ar": [
+          "ما أهم قواعد التعامل مع الثقافة المصرية؟",
+          "كيف أحترم الثقافة المصرية كسائح؟",
+          "ما السلوك المناسب للسياح في مصر؟"
+        ],
+        "en": [
+          "What are important Egyptian cultural etiquette rules?",
+          "How can I respect Egyptian culture as a tourist?",
+          "What behavior is appropriate for tourists in Egypt?"
+        ],
+        "ru": [
+          "Каковы основные правила поведения в египетской культуре?",
+          "Как туристу уважать египетскую культуру?",
+          "Какое поведение подходит туристам в Египте?"
+        ],
+        "de": [
+          "Welche wichtigen Regeln der ägyptischen Etikette gibt es?",
+          "Wie kann ich als Tourist die ägyptische Kultur respektieren?",
+          "Welches Verhalten ist für Touristen in Ägypten angemessen?"
+        ]
+      },
+
+      "keywords": [
+        "culture",
+        "etiquette",
+        "behavior",
+        "respect",
+        "ثقافة",
+        "آداب",
+        "سلوك",
+        "культура",
+        "etikette"
+      ],
+
+      "answer": {
+        "ar": "احترم العادات المحلية، وارتدِ ملابس مناسبة عند زيارة الأماكن الدينية، واطلب الإذن قبل تصوير الأشخاص، والتزم بتعليمات المواقع السياحية.",
+        "en": "Respect local customs, dress appropriately when visiting religious places, ask permission before photographing people, and follow the rules of tourist sites.",
+        "ru": "Уважайте местные традиции, одевайтесь соответствующим образом при посещении религиозных мест, спрашивайте разрешение перед фотографированием людей и соблюдайте правила туристических объектов.",
+        "de": "Respektieren Sie die lokalen Bräuche, kleiden Sie sich beim Besuch religiöser Orte angemessen, fragen Sie vor dem Fotografieren von Personen um Erlaubnis und beachten Sie die Regeln der Sehenswürdigkeiten."
+      }
+    }
+
+  ],
+
+  "weather": [
+
+    {
+      "id": "summer",
+      "subcategory": "summer",
+
+      "name": {
+        "ar": "الصيف",
+        "en": "Summer",
+        "ru": "Лето",
+        "de": "Sommer"
+      },
+
+      "questions": {
+        "ar": [
+          "كيف يكون الصيف في مصر؟",
+          "ماذا أرتدي في الصيف في مصر؟",
+          "ماذا آخذ معي في الصيف؟"
+        ],
+        "en": [
+          "What is summer like in Egypt?",
+          "What should I wear in Egypt in summer?",
+          "What should I pack for summer in Egypt?"
+        ],
+        "ru": [
+          "Какое лето в Египте?",
+          "Что носить летом в Египте?",
+          "Что взять с собой летом в Египет?"
+        ],
+        "de": [
+          "Wie ist der Sommer in Ägypten?",
+          "Was sollte ich im Sommer in Ägypten tragen?",
+          "Was sollte ich im Sommer nach Ägypten mitnehmen?"
+        ]
+      },
+
+      "keywords": [
+        "summer",
+        "hot egypt",
+        "summer egypt",
+        "صيف",
+        "حر",
+        "الصيف في مصر",
+        "лето",
+        "sommer"
+      ],
+
+      "answer": {
+        "ar": "الصيف في مصر يكون حارًا في كثير من المناطق. يفضل ارتداء ملابس خفيفة وفضفاضة واستخدام واقي الشمس وارتداء قبعة ونظارات شمسية.",
+        "en": "Summer is hot in many parts of Egypt. Light, loose clothing, sunscreen, a hat, and sunglasses are recommended.",
+        "ru": "Летом во многих районах Египта жарко. Рекомендуется лёгкая свободная одежда, солнцезащитный крем, головной убор и солнцезащитные очки.",
+        "de": "Der Sommer ist in vielen Teilen Ägyptens heiß. Leichte, lockere Kleidung, Sonnencreme, ein Hut und eine Sonnenbrille werden empfohlen."
+      }
+    },
+
+    {
+      "id": "winter",
+      "subcategory": "winter",
+
+      "name": {
+        "ar": "الشتاء",
+        "en": "Winter",
+        "ru": "Зима",
+        "de": "Winter"
+      },
+
+      "questions": {
+        "ar": [
+          "كيف يكون الشتاء في مصر؟",
+          "ماذا أرتدي في الشتاء في مصر؟",
+          "ماذا آخذ معي في الشتاء؟"
+        ],
+        "en": [
+          "What is winter like in Egypt?",
+          "What should I wear in Egypt in winter?",
+          "What should I pack for winter in Egypt?"
+        ],
+        "ru": [
+          "Какая зима в Египте?",
+          "Что носить зимой в Египте?",
+          "Что взять с собой зимой в Египет?"
+        ],
+        "de": [
+          "Wie ist der Winter in Ägypten?",
+          "Was sollte ich im Winter in Ägypten tragen?",
+          "Was sollte ich im Winter nach Ägypten mitnehmen?"
+        ]
+      },
+
+      "keywords": [
+        "winter",
+        "winter egypt",
+        "cold egypt",
+        "شتاء",
+        "الشتاء",
+        "برد",
+        "зима",
+        "winter ägypten"
+      ],
+
+      "answer": {
+        "ar": "في الخريف والشتاء يُنصح بإحضار جاكيت خفيف إلى متوسط أو سترة واقية من الرياح، مع ملابس مناسبة للطقس.",
+        "en": "During autumn and winter, a light to medium jacket or windbreaker can be useful, along with weather-appropriate clothing.",
+        "ru": "Осенью и зимой может пригодиться лёгкая или средняя куртка либо ветровка вместе с одеждой, подходящей для погоды.",
+        "de": "Im Herbst und Winter kann eine leichte bis mittelschwere Jacke oder Windjacke nützlich sein, zusammen mit wettergerechter Kleidung."
+      }
+    },
+
+    {
+      "id": "what_to_pack",
+      "subcategory": "what_to_pack",
+
+      "name": {
+        "ar": "ماذا أحزم؟",
+        "en": "What to Pack",
+        "ru": "Что взять с собой",
+        "de": "Was einpacken?"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا آخذ معي إلى مصر؟",
+          "ما الأشياء المهمة للسفر إلى مصر؟",
+          "ما الذي يجب أن أحزمه لرحلة مصر؟"
+        ],
+        "en": [
+          "What should I pack for Egypt?",
+          "What are important things to bring to Egypt?",
+          "What should I pack for an Egypt trip?"
+        ],
+        "ru": [
+          "Что взять с собой в Египет?",
+          "Какие вещи важны для поездки в Египет?",
+          "Что взять в путешествие по Египту?"
+        ],
+        "de": [
+          "Was sollte ich nach Ägypten mitnehmen?",
+          "Welche Dinge sind für eine Reise nach Ägypten wichtig?",
+          "Was sollte ich für eine Ägyptenreise einpacken?"
+        ]
+      },
+
+      "keywords": [
+        "packing",
+        "pack egypt",
+        "what to bring",
+        "حقيبة",
+        "ماذا آخذ",
+        "ماذا أحزم",
+        "что взять",
+        "einpacken"
+      ],
+
+      "answer": {
+        "ar": "من المفيد إحضار ملابس قطنية خفيفة ومريحة، وحذاء مريح، وواقي شمس، ومرطب شفاه، وقبعة ونظارات شمسية. قد تحتاج أيضًا إلى جاكيت خفيف أو متوسط حسب الموسم.",
+        "en": "Useful items include light comfortable cotton clothing, comfortable shoes, sunscreen, lip balm, a hat, and sunglasses. A light or medium jacket may also be useful depending on the season.",
+        "ru": "Полезно взять лёгкую удобную хлопковую одежду, удобную обувь, солнцезащитный крем, бальзам для губ, головной убор и солнцезащитные очки. В зависимости от сезона может пригодиться лёгкая или средняя куртка.",
+        "de": "Nützlich sind leichte bequeme Baumwollkleidung, bequeme Schuhe, Sonnencreme, Lippenbalsam, ein Hut und eine Sonnenbrille. Je nach Jahreszeit kann auch eine leichte oder mittelschwere Jacke sinnvoll sein."
+      }
+    },
+
+    {
+      "id": "sun_protection",
+      "subcategory": "sun_protection",
+
+      "name": {
+        "ar": "الحماية من الشمس",
+        "en": "Sun Protection",
+        "ru": "Защита от солнца",
+        "de": "Sonnenschutz"
+      },
+
+      "questions": {
+        "ar": [
+          "كيف أحمي نفسي من الشمس في مصر؟",
+          "هل أحتاج واقي شمس في مصر؟",
+          "ما الأشياء المفيدة للحماية من الشمس؟"
+        ],
+        "en": [
+          "How can I protect myself from the sun in Egypt?",
+          "Do I need sunscreen in Egypt?",
+          "What is useful for sun protection?"
+        ],
+        "ru": [
+          "Как защититься от солнца в Египте?",
+          "Нужен ли солнцезащитный крем в Египте?",
+          "Что полезно для защиты от солнца?"
+        ],
+        "de": [
+          "Wie kann ich mich in Ägypten vor der Sonne schützen?",
+          "Brauche ich in Ägypten Sonnencreme?",
+          "Was ist für Sonnenschutz nützlich?"
+        ]
+      },
+
+      "keywords": [
+        "sun",
+        "sunscreen",
+        "sun protection",
+        "واقي الشمس",
+        "الشمس",
+        "حماية من الشمس",
+        "солнцезащита",
+        "sonnenschutz"
+      ],
+
+      "answer": {
+        "ar": "استخدم واقي الشمس، وارتدِ قبعة ونظارات شمسية، واشرب كمية كافية من الماء، خاصة أثناء زيارة المواقع المفتوحة.",
+        "en": "Use sunscreen and wear a hat and sunglasses. Stay hydrated, especially when visiting outdoor sites.",
+        "ru": "Используйте солнцезащитный крем, носите головной убор и солнцезащитные очки. Поддерживайте водный баланс, особенно при посещении открытых мест.",
+        "de": "Verwenden Sie Sonnencreme und tragen Sie einen Hut und eine Sonnenbrille. Achten Sie besonders bei Besuchen im Freien auf ausreichende Flüssigkeitszufuhr."
+      }
+    }
+
+  ],
+
+  "safety": [
+
+    {
+      "id": "tourist_safety",
+      "subcategory": "tourist_safety",
+
+      "name": {
+        "ar": "سلامة السائح",
+        "en": "Tourist Safety",
+        "ru": "Безопасность туристов",
+        "de": "Sicherheit für Touristen"
+      },
+
+      "questions": {
+        "ar": [
+          "هل مصر آمنة للسياح؟",
+          "ما نصائح السلامة للسائح في مصر؟",
+          "كيف أحافظ على سلامتي في مصر؟"
+        ],
+        "en": [
+          "Is Egypt safe for tourists?",
+          "What are safety tips for tourists in Egypt?",
+          "How can I stay safe in Egypt?"
+        ],
+        "ru": [
+          "Безопасен ли Египет для туристов?",
+          "Какие советы по безопасности есть для туристов в Египте?",
+          "Как обеспечить свою безопасность в Египте?"
+        ],
+        "de": [
+          "Ist Ägypten sicher für Touristen?",
+          "Welche Sicherheitstipps gibt es für Touristen in Ägypten?",
+          "Wie kann ich in Ägypten sicher bleiben?"
+        ]
+      },
+
+      "keywords": [
+        "safety",
+        "tourist safety",
+        "safe egypt",
+        "أمان",
+        "سلامة",
+        "السياحة",
+        "безопасность",
+        "sicherheit"
+      ],
+
+      "answer": {
+        "ar": "احرص على اتباع التعليمات المحلية، وحافظ على مقتنياتك، والتزم بتعليمات المواقع السياحية. في حالة الحاجة إلى مساعدة، يمكن التواصل مع الجهات المختصة.",
+        "en": "Follow local guidance, keep your belongings secure, and obey the rules of tourist sites. If assistance is needed, contact the appropriate authorities.",
+        "ru": "Следуйте местным рекомендациям, храните свои вещи в безопасности и соблюдайте правила туристических объектов. При необходимости обратитесь в соответствующие службы.",
+        "de": "Befolgen Sie lokale Hinweise, bewahren Sie Ihre persönlichen Gegenstände sicher auf und beachten Sie die Regeln der Sehenswürdigkeiten. Bei Bedarf wenden Sie sich an die zuständigen Behörden."
+      }
+    },
+
+    {
+      "id": "emergency",
+      "subcategory": "emergency",
+
+      "name": {
+        "ar": "الطوارئ",
+        "en": "Emergency",
+        "ru": "Экстренные ситуации",
+        "de": "Notfälle"
+      },
+
+      "questions": {
+        "ar": [
+          "ما أرقام الطوارئ في مصر؟",
+          "ماذا أفعل في حالة الطوارئ في مصر؟",
+          "ما رقم الإسعاف في مصر؟"
+        ],
+        "en": [
+          "What are the emergency numbers in Egypt?",
+          "What should I do in an emergency in Egypt?",
+          "What is the ambulance number in Egypt?"
+        ],
+        "ru": [
+          "Какие номера экстренных служб в Египте?",
+          "Что делать в экстренной ситуации в Египте?",
+          "Какой номер скорой помощи в Египте?"
+        ],
+        "de": [
+          "Welche Notrufnummern gibt es in Ägypten?",
+          "Was soll ich im Notfall in Ägypten tun?",
+          "Wie lautet die Nummer des Rettungsdienstes in Ägypten?"
+        ]
+      },
+
+      "keywords": [
+        "emergency",
+        "ambulance",
+        "police",
+        "fire",
+        "طوارئ",
+        "إسعاف",
+        "شرطة",
+        "مطافي",
+        "экстренная помощь",
+        "notruf"
+      ],
+
+      "answer": {
+        "ar": "أرقام الطوارئ المهمة: الإسعاف 123، شرطة السياحة 126، وخدمات الإطفاء 180.",
+        "en": "Important emergency numbers include Ambulance 123, Tourist Police 126, and Fire Services 180.",
+        "ru": "Важные номера экстренных служб: скорая помощь — 123, туристическая полиция — 126, пожарная служба — 180.",
+        "de": "Wichtige Notrufnummern sind: Rettungsdienst 123, Touristenpolizei 126 und Feuerwehr 180."
+      }
+    },
+
+    {
+      "id": "tourism_police",
+      "subcategory": "tourism_police",
+
+      "name": {
+        "ar": "شرطة السياحة",
+        "en": "Tourism Police",
+        "ru": "Туристическая полиция",
+        "de": "Touristenpolizei"
+      },
+
+      "questions": {
+        "ar": [
+          "ما رقم شرطة السياحة في مصر؟",
+          "كيف أتواصل مع شرطة السياحة؟",
+          "ماذا أفعل إذا احتجت مساعدة من شرطة السياحة؟"
+        ],
+        "en": [
+          "What is the Tourism Police number in Egypt?",
+          "How can I contact the Tourism Police?",
+          "What should I do if I need help from the Tourism Police?"
+        ],
+        "ru": [
+          "Какой номер туристической полиции в Египте?",
+          "Как связаться с туристической полицией?",
+          "Что делать, если нужна помощь туристической полиции?"
+        ],
+        "de": [
+          "Wie lautet die Nummer der Touristenpolizei in Ägypten?",
+          "Wie kann ich die Touristenpolizei kontaktieren?",
+          "Was soll ich tun, wenn ich Hilfe von der Touristenpolizei brauche?"
+        ]
+      },
+
+      "keywords": [
+        "tourism police",
+        "tourist police",
+        "126",
+        "شرطة السياحة",
+        "الشرطة السياحية",
+        "туристическая полиция",
+        "touristenpolizei"
+      ],
+
+      "answer": {
+        "ar": "يمكن التواصل مع شرطة السياحة في مصر على الرقم 126.",
+        "en": "The Tourism Police in Egypt can be contacted at 126.",
+        "ru": "С туристической полицией Египта можно связаться по номеру 126.",
+        "de": "Die Touristenpolizei in Ägypten ist unter 126 erreichbar."
+      }
+    },
+
+    {
+      "id": "monument_safety",
+      "subcategory": "monument_safety",
+
+      "name": {
+        "ar": "السلامة في المواقع الأثرية",
+        "en": "Monument Safety",
+        "ru": "Безопасность на памятниках",
+        "de": "Sicherheit an historischen Stätten"
+      },
+
+      "questions": {
+        "ar": [
+          "كيف أحافظ على سلامتي في المواقع الأثرية؟",
+          "ما قواعد السلامة في الآثار؟",
+          "هل يجب الالتزام بتعليمات المواقع الأثرية؟"
+        ],
+        "en": [
+          "How can I stay safe at archaeological sites?",
+          "What are the safety rules at monuments?",
+          "Should I follow the rules at archaeological sites?"
+        ],
+        "ru": [
+          "Как соблюдать безопасность на археологических объектах?",
+          "Какие правила безопасности действуют у памятников?",
+          "Нужно ли соблюдать правила археологических объектов?"
+        ],
+        "de": [
+          "Wie bleibe ich an archäologischen Stätten sicher?",
+          "Welche Sicherheitsregeln gelten an Monumenten?",
+          "Muss ich die Regeln an archäologischen Stätten beachten?"
+        ]
+      },
+
+      "keywords": [
+        "monument safety",
+        "archaeological safety",
+        "archaeological sites",
+        "سلامة الآثار",
+        "المواقع الأثرية",
+        "безопасность памятников",
+        "archäologische stätten"
+      ],
+
+      "answer": {
+        "ar": "التزم بالمسارات والتعليمات الموجودة في الموقع، ولا تتسلق أو تلمس الآثار إلا إذا كان ذلك مسموحًا رسميًا.",
+        "en": "Follow the paths and instructions at the site. Do not climb or touch monuments unless it is officially permitted.",
+        "ru": "Следуйте маршрутам и инструкциям на объекте. Не забирайтесь на памятники и не прикасайтесь к ним, если это официально не разрешено.",
+        "de": "Befolgen Sie die Wege und Anweisungen vor Ort. Klettern oder berühren Sie Monumente nicht, sofern dies nicht offiziell erlaubt ist."
+      }
+    }
+
+  ],
+
+  "trip_planning": [
+
+    {
+      "id": "one_day",
+      "subcategory": "one_day",
+
+      "name": {
+        "ar": "رحلة يوم واحد",
+        "en": "One-Day Trip",
+        "ru": "Поездка на один день",
+        "de": "Tagesausflug"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا أفعل في مصر في يوم واحد؟",
+          "كيف أخطط لرحلة يوم واحد في مصر؟",
+          "ما الأماكن التي يمكن زيارتها في يوم واحد؟"
+        ],
+        "en": [
+          "What can I do in Egypt in one day?",
+          "How can I plan a one-day trip in Egypt?",
+          "What places can I visit in one day?"
+        ],
+        "ru": [
+          "Что можно посмотреть в Египте за один день?",
+          "Как спланировать однодневную поездку по Египту?",
+          "Какие места можно посетить за один день?"
+        ],
+        "de": [
+          "Was kann ich an einem Tag in Ägypten machen?",
+          "Wie plane ich eine eintägige Reise in Ägypten?",
+          "Welche Orte kann ich an einem Tag besuchen?"
+        ]
+      },
+
+      "keywords": [
+        "one day",
+        "1 day egypt",
+        "day trip",
+        "يوم واحد",
+        "رحلة يوم",
+        "يوم في مصر",
+        "один день",
+        "tagesausflug"
+      ],
+
+      "answer": {
+        "ar": "لرحلة يوم واحد، يُفضل اختيار مدينة أو منطقة واحدة والتركيز على عدد محدود من المعالم حتى يكون البرنامج مريحًا. يمكن مثلًا تخصيص اليوم للقاهرة أو الأقصر حسب نقطة الوصول والاهتمامات.",
+        "en": "For a one-day trip, it is better to focus on one city or area and visit a limited number of attractions. Cairo or Luxor can each be used as a one-day focus depending on your starting point and interests.",
+        "ru": "Для однодневной поездки лучше выбрать один город или район и ограниченное количество достопримечательностей. Например, можно посвятить день Каиру или Луксору в зависимости от места начала поездки и интересов.",
+        "de": "Für einen Tagesausflug ist es besser, sich auf eine Stadt oder Region und eine begrenzte Anzahl von Sehenswürdigkeiten zu konzentrieren. Je nach Ausgangspunkt und Interessen kann man beispielsweise Kairo oder Luxor auswählen."
+      }
+    },
+
+    {
+      "id": "three_days",
+      "subcategory": "three_days",
+
+      "name": {
+        "ar": "رحلة ثلاثة أيام",
+        "en": "Three-Day Trip",
+        "ru": "Тägliche Reise für drei Tage",
+        "de": "Dreitägige Reise"
+      },
+
+      "questions": {
+        "ar": [
+          "كيف أخطط لرحلة 3 أيام في مصر؟",
+          "ماذا أزور في مصر خلال ثلاثة أيام؟",
+          "ما أفضل طريقة لتنظيم رحلة ثلاثة أيام؟"
+        ],
+        "en": [
+          "How can I plan a three-day trip in Egypt?",
+          "What can I visit in Egypt in three days?",
+          "How should I organize a three-day Egypt trip?"
+        ],
+        "ru": [
+          "Как спланировать поездку по Египту на три дня?",
+          "Что посмотреть в Египте за три дня?",
+          "Как организовать трёхдневную поездку?"
+        ],
+        "de": [
+          "Wie plane ich eine dreitägige Reise in Ägypten?",
+          "Was kann ich in drei Tagen in Ägypten besuchen?",
+          "Wie organisiere ich eine dreitägige Ägyptenreise?"
+        ]
+      },
+
+      "keywords": [
+        "three days",
+        "3 days egypt",
+        "3 day trip",
+        "ثلاثة أيام",
+        "3 أيام",
+        "رحلة 3 أيام",
+        "три дня",
+        "drei tage"
+      ],
+
+      "answer": {
+        "ar": "في رحلة لمدة ثلاثة أيام يمكن تقسيم الوقت بين مجموعة محدودة من المعالم، مثل تخصيص وقت للقاهرة ومعالمها، أو التركيز على الأقصر وآثارها. الاختيار يعتمد على المدينة التي ستصل إليها واهتماماتك.",
+        "en": "For a three-day trip, you can divide your time among a limited number of attractions, such as focusing on Cairo and its sites or concentrating on Luxor and its ancient monuments. The choice depends on your arrival city and interests.",
+        "ru": "За три дня можно распределить время между ограниченным количеством достопримечательностей: например, сосредоточиться на Каире или на Луксоре и его древних памятниках. Выбор зависит от города прибытия и интересов.",
+        "de": "Bei einer dreitägigen Reise kann man die Zeit auf eine begrenzte Anzahl von Sehenswürdigkeiten verteilen, zum Beispiel auf Kairo und seine Attraktionen oder auf Luxor und seine antiken Monumente. Die Wahl hängt vom Ankunftsort und den Interessen ab."
+      }
+    },
+
+    {
+      "id": "cairo_trip",
+      "subcategory": "cairo",
+
+      "name": {
+        "ar": "رحلة القاهرة",
+        "en": "Cairo Trip",
+        "ru": "Поездка в Каир",
+        "de": "Kairo-Reise"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا أزور في القاهرة؟",
+          "ما أهم الأماكن السياحية في القاهرة؟",
+          "كيف أخطط لزيارة القاهرة؟"
+        ],
+        "en": [
+          "What should I visit in Cairo?",
+          "What are the main tourist attractions in Cairo?",
+          "How can I plan a Cairo visit?"
+        ],
+        "ru": [
+          "Что посетить в Каире?",
+          "Какие главные туристические места есть в Каире?",
+          "Как спланировать поездку в Каир?"
+        ],
+        "de": [
+          "Was sollte ich in Kairo besuchen?",
+          "Welche wichtigen Sehenswürdigkeiten gibt es in Kairo?",
+          "Wie plane ich einen Besuch in Kairo?"
+        ]
+      },
+
+      "keywords": [
+        "cairo",
+        "cairo trip",
+        "cairo attractions",
+        "القاهرة",
+        "رحلة القاهرة",
+        "أماكن القاهرة",
+        "каир",
+        "kairo"
+      ],
+
+      "answer": {
+        "ar": "من المعالم المعروفة في القاهرة والمناطق المحيطة بها أهرامات الجيزة، المتحف المصري، منطقة القاهرة التاريخية، وقلعة صلاح الدين.",
+        "en": "Well-known attractions in Cairo and nearby areas include the Giza Pyramids, the Egyptian Museum, Historic Cairo, and the Citadel of Salah al-Din.",
+        "ru": "Среди известных достопримечательностей Каира и его окрестностей — пирамиды Гизы, Египетский музей, исторический Каир и цитадель Салах ад-Дина.",
+        "de": "Zu den bekannten Sehenswürdigkeiten in Kairo und Umgebung gehören die Pyramiden von Gizeh, das Ägyptische Museum, das historische Kairo und die Zitadelle von Salah ad-Din."
+      }
+    },
+
+    {
+      "id": "luxor_trip",
+      "subcategory": "luxor",
+
+      "name": {
+        "ar": "رحلة الأقصر",
+        "en": "Luxor Trip",
+        "ru": "Поездка в Луксор",
+        "de": "Luxor-Reise"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا أزور في الأقصر؟",
+          "ما أهم الأماكن السياحية في الأقصر؟",
+          "كيف أخطط لرحلة الأقصر؟"
+        ],
+        "en": [
+          "What should I visit in Luxor?",
+          "What are the main attractions in Luxor?",
+          "How can I plan a Luxor trip?"
+        ],
+        "ru": [
+          "Что посетить в Луксоре?",
+          "Какие главные достопримечательности есть в Луксоре?",
+          "Как спланировать поездку в Луксор?"
+        ],
+        "de": [
+          "Was sollte ich in Luxor besuchen?",
+          "Welche wichtigen Sehenswürdigkeiten gibt es in Luxor?",
+          "Wie plane ich eine Luxor-Reise?"
+        ]
+      },
+
+      "keywords": [
+        "luxor",
+        "luxor trip",
+        "luxor attractions",
+        "الأقصر",
+        "رحلة الأقصر",
+        "آثار الأقصر",
+        "луксор",
+        "luxor reise"
+      ],
+
+      "answer": {
+        "ar": "من أشهر معالم الأقصر معبد الكرنك، معبد الأقصر، وادي الملوك، وادي الملكات، ومعبد حتشبسوت.",
+        "en": "Well-known attractions in Luxor include Karnak Temple, Luxor Temple, the Valley of the Kings, the Valley of the Queens, and the Temple of Hatshepsut.",
+        "ru": "Среди известных достопримечательностей Луксора — Карнакский храм, Луксорский храм, Долина царей, Долина цариц и храм Хатшепсут.",
+        "de": "Zu den bekannten Sehenswürdigkeiten in Luxor gehören der Karnak-Tempel, der Luxor-Tempel, das Tal der Könige, das Tal der Königinnen und der Tempel der Hatschepsut."
+      }
+    },
+
+    {
+      "id": "aswan_trip",
+      "subcategory": "aswan",
+
+      "name": {
+        "ar": "رحلة أسوان",
+        "en": "Aswan Trip",
+        "ru": "Поездка в Асуан",
+        "de": "Assuan-Reise"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا أزور في أسوان؟",
+          "ما أهم الأماكن السياحية في أسوان؟",
+          "كيف أخطط لرحلة أسوان؟"
+        ],
+        "en": [
+          "What should I visit in Aswan?",
+          "What are the main attractions in Aswan?",
+          "How can I plan an Aswan trip?"
+        ],
+        "ru": [
+          "Что посетить в Асуане?",
+          "Какие главные достопримечательности есть в Асуане?",
+          "Как спланировать поездку в Асуан?"
+        ],
+        "de": [
+          "Was sollte ich in Assuan besuchen?",
+          "Welche wichtigen Sehenswürdigkeiten gibt es in Assuan?",
+          "Wie plane ich eine Assuan-Reise?"
+        ]
+      },
+
+      "keywords": [
+        "aswan",
+        "aswan trip",
+        "aswan attractions",
+        "أسوان",
+        "رحلة أسوان",
+        "أماكن أسوان",
+        "асуан",
+        "assuan"
+      ],
+
+      "answer": {
+        "ar": "من الأماكن المعروفة في أسوان معبد فيلة، جزيرة إلفنتين، ومتحف النوبة، كما يمكن أن تكون أبو سمبل جزءًا من برنامج زيارة المنطقة.",
+        "en": "Well-known places in Aswan include Philae Temple, Elephantine Island, and the Nubia Museum. Abu Simbel can also be included in a visit to the region.",
+        "ru": "Среди известных мест Асуана — храм Филе, остров Элефантина и Нубийский музей. Абу-Симбел также можно включить в программу посещения региона.",
+        "de": "Zu den bekannten Orten in Assuan gehören der Philae-Tempel, die Insel Elephantine und das Nubische Museum. Abu Simbel kann ebenfalls in die Reiseplanung der Region aufgenommen werden."
+      }
+    },
+
+    {
+      "id": "alexandria_trip",
+      "subcategory": "alexandria",
+
+      "name": {
+        "ar": "رحلة الإسكندرية",
+        "en": "Alexandria Trip",
+        "ru": "Поездка в Александрию",
+        "de": "Alexandria-Reise"
+      },
+
+      "questions": {
+        "ar": [
+          "ماذا أزور في الإسكندرية؟",
+          "ما أهم الأماكن السياحية في الإسكندرية؟",
+          "كيف أخطط لرحلة الإسكندرية؟"
+        ],
+        "en": [
+          "What should I visit in Alexandria?",
+          "What are the main attractions in Alexandria?",
+          "How can I plan an Alexandria trip?"
+        ],
+        "ru": [
+          "Что посетить в Александрии?",
+          "Какие главные достопримечательности есть в Александрии?",
+          "Как спланировать поездку в Александрию?"
+        ],
+        "de": [
+          "Was sollte ich in Alexandria besuchen?",
+          "Welche wichtigen Sehenswürdigkeiten gibt es in Alexandria?",
+          "Wie plane ich eine Alexandria-Reise?"
+        ]
+      },
+
+      "keywords": [
+        "alexandria",
+        "alexandria egypt",
+        "alexandria trip",
+        "الإسكندرية",
+        "رحلة الإسكندرية",
+        "أماكن الإسكندرية",
+        "александрия",
+        "alexandria ägypten"
+      ],
+
+      "answer": {
+        "ar": "من الأماكن المعروفة في الإسكندرية مكتبة الإسكندرية، حدائق المنتزه، والمتحف الملكي للمجوهرات.",
+        "en": "Well-known places in Alexandria include the Bibliotheca Alexandrina, Montaza Gardens, and the Royal Jewelry Museum.",
+        "ru": "Среди известных мест Александрии — Александрийская библиотека, сады Монтаза и Королевский музей ювелирных изделий.",
+        "de": "Zu den bekannten Orten in Alexandria gehören die Bibliotheca Alexandrina, die Montaza-Gärten und das Königliche Juwelenmuseum."
+      }
+    },
+
+    {
+      "id": "red_sea_trip",
+      "subcategory": "red_sea",
+
+      "name": {
+        "ar": "رحلة البحر الأحمر",
+        "en": "Red Sea Trip",
+        "ru": "Поездка на Красное море",
+        "de": "Reise ans Rote Meer"
+      },
+
+      "questions": {
+        "ar": [
+          "أين أذهب في البحر الأحمر؟",
+          "ما أشهر أماكن البحر الأحمر في مصر؟",
+          "كيف أخطط لرحلة إلى البحر الأحمر؟"
+        ],
+        "en": [
+          "Where should I go on the Red Sea?",
+          "What are famous Red Sea destinations in Egypt?",
+          "How can I plan a Red Sea trip?"
+        ],
+        "ru": [
+          "Куда поехать на Красное море?",
+          "Какие места Красного моря известны в Египте?",
+          "Как спланировать поездку на Красное море?"
+        ],
+        "de": [
+          "Wohin sollte ich am Roten Meer reisen?",
+          "Welche bekannten Reiseziele am Roten Meer gibt es in Ägypten?",
+          "Wie plane ich eine Reise ans Rote Meer?"
+        ]
+      },
+
+      "keywords": [
+        "red sea",
+        "hurghada",
+        "sharm el sheikh",
+        "marsa alam",
+        "البحر الأحمر",
+        "الغردقة",
+        "شرم الشيخ",
+        "مرسى علم",
+        "красное море",
+        "rotes meer"
+      ],
+
+      "answer": {
+        "ar": "من الوجهات المعروفة على البحر الأحمر في مصر الغردقة وشرم الشيخ ومرسى علم، ولكل وجهة طبيعتها وأنشطتها السياحية المختلفة.",
+        "en": "Known Red Sea destinations in Egypt include Hurghada, Sharm El-Sheikh, and Marsa Alam, each offering different tourism experiences and activities.",
+        "ru": "Известные направления на Красном море в Египте включают Хургаду, Шарм-эш-Шейх и Марса-Алам, каждое из которых предлагает разные туристические возможности.",
+        "de": "Zu den bekannten Reisezielen am Roten Meer in Ägypten gehören Hurghada, Sharm El-Sheikh und Marsa Alam, die jeweils unterschiedliche touristische Erlebnisse bieten."
+      }
+    }
+
+  ],
+
+  "general_faq": [
+
+    {
+      "id": "first_time_in_egypt",
+      "subcategory": "first_time_in_egypt",
+
+      "name": {
+        "ar": "أول مرة في مصر",
+        "en": "First Time in Egypt",
+        "ru": "Первая поездка в Египет",
+        "de": "Erste Reise nach Ägypten"
+      },
+
+      "questions": {
+        "ar": [
+          "دي أول مرة أزور مصر، أعمل إيه؟",
+          "أنا أول مرة في مصر، أبدأ منين؟",
+          "ما النصائح لأول زيارة لمصر؟"
+        ],
+        "en": [
+          "It is my first time in Egypt. What should I do?",
+          "I am visiting Egypt for the first time. Where should I start?",
+          "What are tips for a first visit to Egypt?"
+        ],
+        "ru": [
+          "Я впервые еду в Египет. Что мне делать?",
+          "Я впервые в Египте. С чего начать?",
+          "Какие советы есть для первой поездки в Египет?"
+        ],
+        "de": [
+          "Ich besuche Ägypten zum ersten Mal. Was soll ich tun?",
+          "Ich bin zum ersten Mal in Ägypten. Wo soll ich anfangen?",
+          "Welche Tipps gibt es für eine erste Ägyptenreise?"
+        ]
+      },
+
+      "keywords": [
+        "first time egypt",
+        "first visit",
+        "new tourist",
+        "أول مرة",
+        "أول زيارة",
+        "سائح جديد",
+        "первый раз",
+        "erste reise"
+      ],
+
+      "answer": {
+        "ar": "إذا كانت هذه أول زيارة لك، حدد المدن التي تريد زيارتها أولًا، واختر عددًا مناسبًا من المعالم، وتأكد من المعلومات الرسمية الخاصة بالتذاكر والمواصلات. من المفيد أيضًا معرفة قواعد التصوير والملابس في الأماكن الدينية.",
+        "en": "For a first visit, decide which cities you want to explore, choose a manageable number of attractions, and check official information for tickets and transportation. It is also useful to know photography and dress rules at religious sites.",
+        "ru": "Во время первой поездки определите города, которые хотите посетить, выберите разумное количество достопримечательностей и проверьте официальную информацию о билетах и транспорте. Также полезно знать правила фотографирования и одежды в религиозных местах.",
+        "de": "Bei einer ersten Reise sollte man die gewünschten Städte auswählen, eine überschaubare Anzahl von Sehenswürdigkeiten planen und offizielle Informationen zu Tickets und Transport prüfen. Außerdem ist es hilfreich, die Regeln für Fotografieren und Kleidung an religiösen Orten zu kennen."
+      }
+    },
+
+    {
+      "id": "currency",
+      "subcategory": "currency",
+
+      "name": {
+        "ar": "العملة",
+        "en": "Currency",
+        "ru": "Валюта",
+        "de": "Währung"
+      },
+
+      "questions": {
+        "ar": [
+          "ما عملة مصر؟",
+          "ما العملة المستخدمة في مصر؟",
+          "هل أحتاج كاش في مصر؟"
+        ],
+        "en": [
+          "What is the currency of Egypt?",
+          "What currency is used in Egypt?",
+          "Do I need cash in Egypt?"
+        ],
+        "ru": [
+          "Какая валюта в Египте?",
+          "Какая валюта используется в Египте?",
+          "Нужны ли наличные в Египте?"
+        ],
+        "de": [
+          "Was ist die Währung Ägyptens?",
+          "Welche Währung wird in Ägypten verwendet?",
+          "Brauche ich Bargeld in Ägypten?"
+        ]
+      },
+
+      "keywords": [
+        "currency",
+        "egyptian pound",
+        "cash",
+        "money egypt",
+        "عملة",
+        "الجنيه المصري",
+        "كاش",
+        "валюта",
+        "bargeld"
+      ],
+
+      "answer": {
+        "ar": "العملة الرسمية في مصر هي الجنيه المصري. بطاقات الدفع مقبولة في المدن الكبرى والوجهات السياحية، لكن من المفيد الاحتفاظ ببعض النقود المصرية لأن بعض سيارات الأجرة والمحلات الصغيرة تعتمد على الدفع النقدي.",
+        "en": "The official currency of Egypt is the Egyptian pound. Cards are accepted in major cities and tourist destinations, but it is useful to carry some Egyptian cash because some taxis and small shops rely on cash payments.",
+        "ru": "Официальная валюта Египта — египетский фунт. Карты принимаются в крупных городах и туристических местах, но полезно иметь при себе немного египетских наличных, поскольку некоторые такси и небольшие магазины работают с наличными.",
+        "de": "Die offizielle Währung Ägyptens ist das ägyptische Pfund. Karten werden in großen Städten und touristischen Gebieten akzeptiert, aber etwas ägyptisches Bargeld ist sinnvoll, da einige Taxis und kleine Geschäfte auf Barzahlung angewiesen sind."
+      }
+    },
+
+    {
+      "id": "language",
+      "subcategory": "language",
+
+      "name": {
+        "ar": "اللغة",
+        "en": "Language",
+        "ru": "Язык",
+        "de": "Sprache"
+      },
+
+      "questions": {
+        "ar": [
+          "ما اللغة المستخدمة في مصر؟",
+          "هل يتحدث الناس الإنجليزية في مصر؟",
+          "ما اللغة الرسمية في مصر؟"
+        ],
+        "en": [
+          "What language is spoken in Egypt?",
+          "Do people speak English in Egypt?",
+          "What is the official language of Egypt?"
+        ],
+        "ru": [
+          "На каком языке говорят в Египте?",
+          "Говорят ли в Египте по-английски?",
+          "Какой официальный язык Египта?"
+        ],
+        "de": [
+          "Welche Sprache wird in Ägypten gesprochen?",
+          "Sprechen die Menschen in Ägypten Englisch?",
+          "Was ist die Amtssprache Ägyptens?"
+        ]
+      },
+
+      "keywords": [
+        "language",
+        "arabic",
+        "english egypt",
+        "لغة",
+        "العربية",
+        "اللغة الرسمية",
+        "язык",
+        "sprache"
+      ],
+
+      "answer": {
+        "ar": "اللغة الرسمية في مصر هي العربية، وتستخدم الإنجليزية على نطاق واسع في المناطق السياحية.",
+        "en": "Arabic is the official language of Egypt, and English is widely used in tourist areas.",
+        "ru": "Официальный язык Египта — арабский, а английский широко используется в туристических районах.",
+        "de": "Die Amtssprache Ägyptens ist Arabisch. Englisch wird in touristischen Gebieten häufig verwendet."
+      }
+    },
+
+    {
+      "id": "general_photography",
+      "subcategory": "photography",
+
+      "name": {
+        "ar": "التصوير",
+        "en": "Photography",
+        "ru": "Фотосъёмка",
+        "de": "Fotografie"
+      },
+
+      "questions": {
+        "ar": [
+          "هل التصوير مسموح في مصر؟",
+          "هل يمكنني التصوير أثناء السياحة؟",
+          "ما أهم قواعد التصوير؟"
+        ],
+        "en": [
+          "Is photography allowed in Egypt?",
+          "Can I take photos while sightseeing?",
+          "What are the main photography rules?"
+        ],
+        "ru": [
+          "Разрешена ли фотосъёмка в Египте?",
+          "Можно ли фотографировать во время путешествия?",
+          "Каковы основные правила фотосъёмки?"
+        ],
+        "de": [
+          "Ist Fotografieren in Ägypten erlaubt?",
+          "Darf ich während meiner Reise fotografieren?",
+          "Was sind die wichtigsten Regeln für das Fotografieren?"
+        ]
+      },
+
+      "keywords": [
+        "photography",
+        "photos",
+        "camera",
+        "تصوير",
+        "التصوير",
+        "фотосъёмка",
+        "fotografie"
+      ],
+
+      "answer": {
+        "ar": "التصوير الشخصي غير التجاري مسموح بشكل عام، لكن يجب الالتزام بقواعد المكان واحترام خصوصية الأشخاص. لا تستخدم الفلاش داخل الأماكن المغلقة.",
+        "en": "Personal non-commercial photography is generally allowed, but visitors must follow site rules and respect people's privacy. Do not use flash indoors.",
+        "ru": "Личная некоммерческая фотосъёмка в целом разрешена, но необходимо соблюдать правила объекта и уважать частную жизнь людей. Не используйте вспышку внутри помещений.",
+        "de": "Persönliches, nicht kommerzielles Fotografieren ist im Allgemeinen erlaubt, aber die Regeln des Ortes und die Privatsphäre anderer müssen respektiert werden. Verwenden Sie keinen Blitz in Innenräumen."
+      }
+    },
+
+    {
+      "id": "general_dress",
+      "subcategory": "dress",
+
+      "name": {
+        "ar": "الملابس",
+        "en": "Dress",
+        "ru": "Одежда",
+        "de": "Kleidung"
+      },
+
+      "questions": {
+        "ar": [
+          "ما الملابس المناسبة في مصر؟",
+          "ماذا أرتدي كسائح؟",
+          "هل الملابس المحتشمة مهمة؟"
+        ],
+        "en": [
+          "What clothes are appropriate in Egypt?",
+          "What should I wear as a tourist?",
+          "Is modest clothing important?"
+        ],
+        "ru": [
+          "Какая одежда подходит в Египте?",
+          "Что носить туристу?",
+          "Важна ли скромная одежда?"
+        ],
+        "de": [
+          "Welche Kleidung ist in Ägypten angemessen?",
+          "Was sollte ich als Tourist tragen?",
+          "Ist dezente Kleidung wichtig?"
+        ]
+      },
+
+      "keywords": [
+        "dress",
+        "clothes",
+        "clothing egypt",
+        "ملابس",
+        "لبس",
+        "ملابس محتشمة",
+        "одежда",
+        "kleidung"
+      ],
+
+      "answer": {
+        "ar": "الملابس الخفيفة والمريحة مناسبة للطقس، بينما يفضل ارتداء ملابس محتشمة عند زيارة الأماكن الدينية.",
+        "en": "Light and comfortable clothing is suitable for the weather, while modest clothing is recommended when visiting religious places.",
+        "ru": "Лёгкая и удобная одежда подходит для египетского климата, а при посещении религиозных мест рекомендуется скромная одежда.",
+        "de": "Leichte und bequeme Kleidung eignet sich für das Klima. Beim Besuch religiöser Orte wird dezente Kleidung empfohlen."
+      }
+    },
+
+    {
+      "id": "general_tickets",
+      "subcategory": "tickets",
+
+      "name": {
+        "ar": "التذاكر",
+        "en": "Tickets",
+        "ru": "Билеты",
+        "de": "Tickets"
+      },
+
+      "questions": {
+        "ar": [
+          "من أين أشتري تذاكر الأماكن السياحية؟",
+          "هل يمكن شراء التذاكر أونلاين؟",
+          "أين أعرف سعر التذكرة الحالي؟"
+        ],
+        "en": [
+          "Where can I buy tourist attraction tickets?",
+          "Can I buy tickets online?",
+          "Where can I find the current ticket price?"
+        ],
+        "ru": [
+          "Где купить билеты в туристические места?",
+          "Можно ли купить билеты онлайн?",
+          "Где узнать актуальную цену билета?"
+        ],
+        "de": [
+          "Wo kann ich Tickets für Sehenswürdigkeiten kaufen?",
+          "Kann ich Tickets online kaufen?",
+          "Wo finde ich den aktuellen Ticketpreis?"
+        ]
+      },
+
+      "keywords": [
+        "tickets",
+        "ticket price",
+        "online tickets",
+        "تذاكر",
+        "سعر التذكرة",
+        "بليت",
+        "билеты",
+        "tickets"
+      ],
+
+      "answer": {
+        "ar": "تتوفر طرق مختلفة لشراء التذاكر حسب الموقع. بالنسبة للأسعار الحالية، لا تعتمد على قاعدة المعرفة؛ تحقق من المصدر الرسمي لأن الأسعار والسياسات قد تتغير.",
+        "en": "Ticket purchasing methods vary by site. For current prices, do not rely on the knowledge base; check the official source because prices and policies can change.",
+        "ru": "Способы покупки билетов зависят от объекта. Актуальные цены не следует брать из базы знаний; проверяйте официальный источник, поскольку цены и правила могут меняться.",
+        "de": "Die Möglichkeiten zum Ticketkauf unterscheiden sich je nach Ort. Für aktuelle Preise sollte man sich nicht auf die Wissensdatenbank verlassen, sondern die offizielle Quelle prüfen, da sich Preise und Regeln ändern können."
+      }
+    },
+
+    {
+      "id": "general_shopping",
+      "subcategory": "shopping",
+
+      "name": {
+        "ar": "التسوق",
+        "en": "Shopping",
+        "ru": "Шопинг",
+        "de": "Einkaufen"
+      },
+
+      "questions": {
+        "ar": [
+          "أين أتسوق في مصر؟",
+          "ماذا أشتري من مصر؟",
+          "ما الهدايا المشهورة في مصر؟"
+        ],
+        "en": [
+          "Where can I shop in Egypt?",
+          "What should I buy in Egypt?",
+          "What souvenirs are popular in Egypt?"
+        ],
+        "ru": [
+          "Где делать покупки в Египте?",
+          "Что купить в Египте?",
+          "Какие сувениры популярны в Египте?"
+        ],
+        "de": [
+          "Wo kann ich in Ägypten einkaufen?",
+          "Was sollte ich in Ägypten kaufen?",
+          "Welche Souvenirs sind in Ägypten beliebt?"
+        ]
+      },
+
+      "keywords": [
+        "shopping",
+        "souvenirs",
+        "gifts",
+        "buy egypt",
+        "تسوق",
+        "هدايا",
+        "شراء",
+        "шопинг",
+        "einkaufen"
+      ],
+
+      "answer": {
+        "ar": "يمكن للسائح البحث عن المشغولات اليدوية والبردي والعطور والتوابل والمجوهرات والمنسوجات وغيرها من المنتجات التقليدية في الأسواق السياحية.",
+        "en": "Tourists can look for traditional products such as handicrafts, papyrus, perfumes, spices, jewelry, and textiles in tourist markets.",
+        "ru": "Туристы могут искать традиционные товары, такие как изделия ручной работы, папирус, духи, специи, украшения и текстиль, на туристических рынках.",
+        "de": "Touristen können auf touristischen Märkten nach traditionellen Produkten wie Kunsthandwerk, Papyrus, Parfüms, Gewürzen, Schmuck und Textilien suchen."
+      }
+    },
+
+    {
+      "id": "general_questions",
+      "subcategory": "general_questions",
+
+      "name": {
+        "ar": "أسئلة عامة",
+        "en": "General Questions",
+        "ru": "Общие вопросы",
+        "de": "Allgemeine Fragen"
+      },
+
+      "questions": {
+        "ar": [
+          "عندي سؤال عن مصر",
+          "عايز معلومات عن السياحة في مصر",
+          "ما الذي يمكنني معرفته عن مصر؟"
+        ],
+        "en": [
+          "I have a question about Egypt",
+          "I want information about tourism in Egypt",
+          "What can I learn about Egypt?"
+        ],
+        "ru": [
+          "У меня вопрос о Египте",
+          "Мне нужна информация о туризме в Египте",
+          "Что можно узнать о Египте?"
+        ],
+        "de": [
+          "Ich habe eine Frage zu Ägypten",
+          "Ich möchte Informationen über Tourismus in Ägypten",
+          "Was kann ich über Ägypten erfahren?"
+        ]
+      },
+
+      "keywords": [
+        "egypt",
+        "tourism",
+        "tourist",
+        "مصر",
+        "سياحة",
+        "سائح",
+        "египет",
+        "туризм",
+        "ägypten",
+        "tourismus"
+      ],
+
+      "answer": {
+        "ar": "يمكنني مساعدتك بمعلومات موثقة عن الأماكن السياحية، الأكل، التسوق، المواصلات، التذاكر، التصوير، الثقافة، الطقس، السلامة وتخطيط الرحلات في مصر.",
+        "en": "I can help with verified information about tourist places, food, shopping, transportation, tickets, photography, culture, weather, safety, and trip planning in Egypt.",
+        "ru": "Я могу помочь с проверенной информацией о туристических местах, еде, шопинге, транспорте, билетах, фотографии, культуре, погоде, безопасности и планировании поездок по Египту.",
+        "de": "Ich kann mit verifizierten Informationen über Sehenswürdigkeiten, Essen, Einkaufen, Transport, Tickets, Fotografie, Kultur, Wetter, Sicherheit und Reiseplanung in Ägypten helfen."
+      }
+    }
+
+  ],
+
+  "general_rules": {
+
+    "supported_languages_only": [
+      "ar",
+      "en",
+      "ru",
+      "de"
+    ],
+
+    "reply_in_user_language": true,
+
+    "anti_hallucination": true,
+
+    "use_only_verified_information": true,
+
+    "never_invent_prices": true,
+
+    "never_invent_opening_hours": true,
+
+    "never_invent_addresses": true,
+
+    "never_invent_phone_numbers": true,
+
+    "never_invent_restaurants": true,
+
+    "never_invent_hotels": true,
+
+    "never_invent_transport_routes": true,
+
+    "never_invent_ticket_policies": true,
+
+    "never_invent_tourist_attractions": true,
+
+    "dynamic_information": {
+      "prices": "Do not guess. Ask the user to check the official source.",
+      "opening_hours": "Do not guess. Ask the user to check the official source.",
+      "transport_routes": "Do not guess current routes.",
+      "availability": "Do not guess current availability.",
+      "weather": "Do not give current weather unless live data is available."
+    },
+
+    "if_information_is_unavailable": {
+      "ar": "عذرًا، لا تتوفر لدي معلومات موثقة عن هذا الأمر.",
+      "en": "Sorry, I do not have verified information about this.",
+      "ru": "Извините, у меня нет проверенной информации по этому вопросу.",
+      "de": "Entschuldigung, ich habe dazu keine verifizierten Informationen."
+    },
+
+    "if_current_information_is_requested": {
+      "ar": "هذه معلومة متغيرة، لذلك لا أريد تخمينها. يُرجى الرجوع إلى المصدر الرسمي للحصول على أحدث المعلومات.",
+      "en": "This is changing information, so I do not want to guess. Please check the official source for the latest information.",
+      "ru": "Эта информация может меняться, поэтому я не хочу гадать. Проверьте официальный источник для получения актуальной информации.",
+      "de": "Diese Information kann sich ändern, daher möchte ich nicht raten. Bitte prüfen Sie die offizielle Quelle für die neuesten Informationen."
+    }
+  }
+}
