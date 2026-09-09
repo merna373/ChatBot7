@@ -144,38 +144,59 @@ def detect_language(text):
 
     text_lower = text.lower().strip()
 
+    # =========================
     # Arabic
+    # =========================
     if re.search(r"[\u0600-\u06FF]", text):
         return "ar"
 
+    # =========================
     # Russian / Cyrillic
+    # =========================
     if re.search(r"[\u0400-\u04FF]", text):
         return "ru"
 
+    # =========================
     # German
+    # =========================
     german_words = {
-        "der", "die", "das", "und", "ich", "ist",
-        "wie", "wo", "was", "für", "mit",
-        "möchte", "möchten", "reise", "reisen",
+        "der", "die", "das",
+        "den", "dem", "des",
+        "ein", "eine", "einer",
+        "und", "oder",
+        "ich", "du", "sie", "wir",
+        "ist", "sind",
+        "wie", "wo",
+        "was", "welche", "welcher", "welches",
+        "für", "mit", "nach", "von",
+        "möchte", "möchten",
+        "reise", "reisen",
         "ägypten", "ägyptische", "ägyptischen",
-        "kann", "gibt", "tourist",
-        "sehenswürdigkeiten", "sind",
-        "welche", "was", "nach"
+        "kann", "können",
+        "gibt",
+        "sehenswürdigkeiten",
+        "tourist", "touristen",
+        "essen", "essen",
+        "shopping",
+        "verkehr",
+        "wetter",
+        "sicherheit"
     }
 
     words = set(
         re.findall(
-            r"\b[\wäöüßÄÖÜ]+\b",
+            r"\b[a-zäöüß]+\b",
             text_lower
         )
     )
 
     german_matches = words.intersection(german_words)
 
-    if len(german_matches) >= 1:
+    # Require at least TWO German indicators
+    # to avoid classifying English as German.
+    if len(german_matches) >= 2:
         return "de"
 
-    # Default = English
     return "en"
 
 
@@ -1608,15 +1629,48 @@ WEB SEARCH RESULTS
 {web_results}
 
 =========================================================
-FINAL RESPONSE RULE
+ABSOLUTE FINAL LANGUAGE ENFORCEMENT
 =========================================================
-Answer the user's question directly.
-Do not explain the internal architecture of Kemet.
-Do not mention "Knowledge Base" or "Web Search Results"
-unless it is useful for explaining the source of information.
 
-Do not add a Sources section to the answer.
-Sources are displayed separately by the application UI.
+IMPORTANT:
+
+The final answer MUST use ONLY the detected language.
+
+Detected language code: {language}
+Detected language name: {language_name}
+
+If the detected language is "en":
+- Write ONLY English.
+- Do NOT write German.
+- Do NOT write Arabic.
+- Do NOT write Russian.
+
+If the detected language is "ar":
+- Write ONLY Arabic.
+- Do NOT write English.
+- Do NOT write German.
+- Do NOT write Russian.
+
+If the detected language is "ru":
+- Write ONLY Russian.
+- Do NOT write English.
+- Do NOT write German.
+- Do NOT write Arabic.
+
+If the detected language is "de":
+- Write ONLY German.
+- Do NOT write English.
+- Do NOT write Arabic.
+- Do NOT write Russian.
+
+The language of the Knowledge Base is irrelevant.
+The language of previous assistant messages is irrelevant.
+The language of Web Search Results is irrelevant.
+
+Only the latest user's message determines the answer language.
+
+Before returning the answer, verify that the entire answer
+is written in the detected language.
 """
 
 
