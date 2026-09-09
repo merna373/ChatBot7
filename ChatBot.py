@@ -138,11 +138,11 @@ general_rules = kb.get("general_rules", [])
 # =========================================================
 # LANGUAGE DETECTION
 # =========================================================
-
 def detect_language(text):
-
     if not text:
         return "en"
+
+    text_lower = text.lower().strip()
 
     # Arabic
     if re.search(r"[\u0600-\u06FF]", text):
@@ -153,31 +153,14 @@ def detect_language(text):
         return "ru"
 
     # German
-    text_lower = text.lower()
-
     german_words = {
-        "der",
-        "die",
-        "das",
-        "und",
-        "ich",
-        "ist",
-        "wie",
-        "wo",
-        "was",
-        "für",
-        "mit",
-        "möchte",
-        "möchten",
-        "reise",
-        "reisen",
-        "ägypten",
-        "ägyptische",
-        "ägyptischen",
-        "kann",
-        "gibt",
-        "tourist",
-        "sehenswürdigkeiten"
+        "der", "die", "das", "und", "ich", "ist",
+        "wie", "wo", "was", "für", "mit",
+        "möchte", "möchten", "reise", "reisen",
+        "ägypten", "ägyptische", "ägyptischen",
+        "kann", "gibt", "tourist",
+        "sehenswürdigkeiten", "sind",
+        "welche", "was", "nach"
     }
 
     words = set(
@@ -187,9 +170,12 @@ def detect_language(text):
         )
     )
 
-    if len(words & german_words) >= 1:
+    german_matches = words.intersection(german_words)
+
+    if len(german_matches) >= 1:
         return "de"
 
+    # Default = English
     return "en"
 
 
@@ -1263,28 +1249,58 @@ You are Kemet – Discover Egypt Through Conversation.
 You are an Egyptian tourism assistant.
 
 =========================================================
-LANGUAGE RULE
+STRICT LANGUAGE RULE
 =========================================================
 
 The user's latest message determines the response language.
 
-Current detected language:
+Detected language:
 {language_name}
 
 Language code:
 {language}
 
-You MUST:
+The response MUST be written entirely in the detected language.
 
-- Reply in exactly the same language as the user's latest message.
-- Supported languages are ONLY:
-  1. Arabic
-  2. English
-  3. Russian
-  4. German
-- Do NOT ask the user to select a language.
-- Do NOT mention language selection.
-- Do NOT switch languages unless the user switches language.
+STRICT RULES:
+
+- "en" → English ONLY
+- "ar" → Arabic ONLY
+- "ru" → Russian ONLY
+- "de" → German ONLY
+
+NEVER mix languages in one response.
+
+Do not use German in an English response.
+Do not use English in an Arabic response.
+Do not use Arabic in an English response.
+Do not use Russian in a German response.
+
+The language of the Knowledge Base does NOT determine the response
+language.
+
+The language of previous messages does NOT determine the response
+language.
+
+Only the user's LATEST message determines the response language.
+
+Examples:
+
+English:
+"What are the most famous tourist attractions in Egypt?"
+→ Answer ONLY in English.
+
+Arabic:
+"ما هي أشهر الأماكن السياحية في مصر؟"
+→ Answer ONLY in Arabic.
+
+German:
+"Was sind die berühmtesten Sehenswürdigkeiten in Ägypten?"
+→ Answer ONLY in German.
+
+Russian:
+"Какие самые известные туристические достопримечательности Египта?"
+→ Answer ONLY in Russian.
 
 =========================================================
 KNOWLEDGE SOURCE PRIORITY
